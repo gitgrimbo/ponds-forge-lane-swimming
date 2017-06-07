@@ -1,14 +1,2146 @@
 [
  {
   "activity": {
-   "timetables": [
+   "timetables": [],
+   "defaultTimetable": [
     {
-     "id": "timetableId/2/164",
-     "name": "Swimming (Term Time)"
+     "day": 3,
+     "items": [
+      {
+       "venueId": "8",
+       "startTime": "05:30",
+       "endTime": "09:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:30",
+       "endTime": "15:15",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "07:00",
+       "endTime": "13:30",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "09:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "24:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "09:30",
+       "endTime": "10:30",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "09:30",
+       "endTime": "16:00",
+       "description": "Just Swim (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "09:30",
+       "endTime": "10:15",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "10:00",
+       "endTime": "11:00",
+       "description": "Aqua Aerobics",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:00",
+       "endTime": "11:00",
+       "description": "Age UK",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "10:15",
+       "endTime": "11:00",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "10:30",
+       "endTime": "24:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "11:00",
+       "endTime": "15:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "11:00",
+       "endTime": "24:00",
+       "description": "Lane Swimming For Beginners",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "11:15",
+       "endTime": "24:15",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:00",
+       "endTime": "16:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Swimming For Slimming",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:25",
+       "endTime": "13:35",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "14:35",
+       "endTime": "15:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "17:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "15:45",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "15:15",
+       "endTime": "16:00",
+       "description": "Lane - Limited Availability During This Time",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "22:00",
+       "description": "Lane (50m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "16:00",
+       "endTime": "17:00",
+       "description": "Ladies Only",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "17:00",
+       "endTime": "20:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "17:00",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:45",
+       "description": "Just Swim (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "18:05",
+       "endTime": "19:00",
+       "description": "Swimfit",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "18:25",
+       "endTime": "20:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "19:00",
+       "endTime": "20:30",
+       "description": "Water Polo",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "19:00",
+       "endTime": "20:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "19:00",
+       "endTime": "20:00",
+       "description": "Aqua Aerobics",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "19:00",
+       "endTime": "20:10",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "20:15",
+       "endTime": "21:15",
+       "description": "Aqua Aerobics",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "21:20",
+       "endTime": "22:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      }
+     ]
     },
     {
-     "id": "timetableId/99/164",
-     "name": "Swimming (Half Term 29th May - 4th June)"
+     "day": 4,
+     "items": [
+      {
+       "venueId": "8",
+       "startTime": "05:30",
+       "endTime": "09:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:30",
+       "endTime": "15:15",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "07:00",
+       "endTime": "21:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "08:45",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "07:00",
+       "endTime": "08:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "24:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "09:45",
+       "endTime": "10:30",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:15",
+       "endTime": "11:00",
+       "description": "Aqua Aerobics",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "10:30",
+       "endTime": "11:15",
+       "description": "Ducklings Lessons (18 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "11:00",
+       "endTime": "24:00",
+       "description": "Ladies Only",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "11:15",
+       "endTime": "24:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "11:15",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "11:15",
+       "endTime": "24:15",
+       "description": "Aqua Aerobics",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "11:30",
+       "endTime": "16:00",
+       "description": "Just Swim (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "11:30",
+       "endTime": "13:15",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:00",
+       "endTime": "16:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Swimfit",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Disability and Autism Friendly Session",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:20",
+       "endTime": "13:25",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:30",
+       "endTime": "14:30",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "13:15",
+       "endTime": "14:00",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "13:30",
+       "endTime": "14:30",
+       "description": "Aqua Aerobics",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "13:45",
+       "endTime": "14:30",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "14:30",
+       "endTime": "15:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "15:00",
+       "endTime": "15:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "15:15",
+       "endTime": "16:00",
+       "description": "Lane - Limited Availability During This Time",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "22:00",
+       "description": "Lane (50m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "18:00",
+       "endTime": "19:00",
+       "description": "Swimfit",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "18:15",
+       "endTime": "22:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "19:00",
+       "endTime": "20:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "19:30",
+       "endTime": "20:30",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "19:45",
+       "endTime": "21:00",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "16",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      }
+     ]
+    },
+    {
+     "day": 5,
+     "items": [
+      {
+       "venueId": "8",
+       "startTime": "05:30",
+       "endTime": "13:20",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:30",
+       "endTime": "15:15",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "07:00",
+       "endTime": "09:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "08:00",
+       "description": "Ladies Only Lane",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "08:00",
+       "endTime": "09:00",
+       "description": "Ladies Only Adult",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "09:00",
+       "endTime": "10:45",
+       "description": "Ladies Only (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "24:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:00",
+       "description": "Age UK",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:00",
+       "endTime": "14:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:00",
+       "endTime": "14:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:00",
+       "endTime": "16:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Swimming For Slimming",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "13:30",
+       "endTime": "14:30",
+       "description": "Ladies Only",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "14:30",
+       "endTime": "15:45",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "14:30",
+       "endTime": "15:45",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "15:15",
+       "endTime": "16:00",
+       "description": "Lane - Limited Availability During This Time",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "15:30",
+       "endTime": "17:00",
+       "description": "Silver Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:45",
+       "endTime": "18:40",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "21:30",
+       "description": "Lane (50m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Leisure Swimming",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "16:00",
+       "endTime": "20:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "16:30",
+       "endTime": "17:15",
+       "description": "Pool Party",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "17:00",
+       "endTime": "18:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "17:00",
+       "endTime": "18:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "17:15",
+       "endTime": "18:00",
+       "description": "Pool Party",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "20:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "19:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "18:45",
+       "endTime": "20:15",
+       "description": "Pool Party",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "19:05",
+       "endTime": "21:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "19:30",
+       "endTime": "21:30",
+       "description": "Swimfit",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Tranquil Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      }
+     ]
+    },
+    {
+     "day": 6,
+     "items": [
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "08:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "07:00",
+       "endTime": "07:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "08:00",
+       "endTime": "16:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "10:30",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:30",
+       "endTime": "17:15",
+       "description": "Leisure Swimming",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "10:30",
+       "endTime": "15:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "24:15",
+       "endTime": "13:00",
+       "description": "&#xA3;1 Family Splash",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:30",
+       "endTime": "13:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:30",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:30",
+       "endTime": "17:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "13:00",
+       "endTime": "13:45",
+       "description": "&#xA3;1 Family Splash",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "13:30",
+       "endTime": "15:00",
+       "description": "Splash Session",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "13:30",
+       "endTime": "15:00",
+       "description": "Splash Session",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "13:30",
+       "endTime": "15:00",
+       "description": "Splash Session",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "26",
+       "startTime": "13:45",
+       "endTime": "14:45",
+       "description": "Ladies Only",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "14:45",
+       "endTime": "15:45",
+       "description": "Ladies Only",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Family Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Family Swim",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "15:00",
+       "endTime": "16:30",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "15:45",
+       "endTime": "16:45",
+       "description": "Ladies Only Adult",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "18:30",
+       "endTime": "21:30",
+       "description": "Lane (25m) Swimming",
+       "room": "Diving Pool",
+       "alterations": [
+        {
+         "date": "10th June",
+         "message": "Lane Swimming will be available 8.00am - 9.30pm in the 50m Competition Pool."
+        },
+        {
+         "date": "17th June",
+         "message": "Lane Swimming will be available 5.30pm - 9.30pm in the 25m Diving Pool."
+        },
+        {
+         "date": "24th June",
+         "message": "Lane Swimming will be available 6.00pm - 9.30pm in the 25m Diving Pool."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "day": 0,
+     "items": [
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "08:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "07:00",
+       "endTime": "08:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "08:00",
+       "endTime": "10:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "08:00",
+       "endTime": "18:00",
+       "description": "Lane (25m) Swimming",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "27",
+       "startTime": "08:30",
+       "endTime": "09:00",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "09:00",
+       "endTime": "13:15",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "10:30",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "10:00",
+       "endTime": "13:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "10:00",
+       "endTime": "13:00",
+       "description": "Family Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "10:00",
+       "endTime": "13:00",
+       "description": "Family Swim",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:30",
+       "endTime": "17:15",
+       "description": "Leisure Swimming",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "10:30",
+       "endTime": "15:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "11:00",
+       "endTime": "13:15",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "11:10",
+       "endTime": "11:50",
+       "description": "Junior Swimfit",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:40",
+       "endTime": "13:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:40",
+       "endTime": "17:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "13:30",
+       "endTime": "15:00",
+       "description": "Family Splash",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "13:30",
+       "endTime": "14:30",
+       "description": "Splash Session",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Family Swim",
+       "room": "Main Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Family Swim",
+       "room": "Teaching Pool",
+       "alterations": [
+        {
+         "date": "\n                                                     5 June - 11 June\n                                            ",
+         "message": "<strong>Swimming Pool Maintenance</strong><br>We&apos;re making your pool better! We are undertaking some essential maintenance on the pool roof meaning our swimming pool will be closed from the 5th - 11th June. We will open as normal Monday 12th June. Why not try swimming at one of our other venues - take a look at our timetable."
+        }
+       ]
+      },
+      {
+       "venueId": "8",
+       "startTime": "15:00",
+       "endTime": "16:30",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "19:30",
+       "endTime": "21:30",
+       "description": "Lane (50m) Swimming",
+       "room": "Competition Pool",
+       "alterations": [
+        {
+         "date": "11th June",
+         "message": "Lane Swimming will be available 8.00am - 9.30pm in the 25m Competition Pool."
+        },
+        {
+         "date": "18th June",
+         "message": "Lane Swimming will be available 8.00am - 5.30pm in the 25m Competition Pool &amp; 7.00pm - 9.30pm in the 50m Competition Pool."
+        },
+        {
+         "date": "25th June",
+         "message": "Lane Swimming will be available 8.30pm - 9.30pm in the 50m Competition Pool."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "day": 1,
+     "items": [
+      {
+       "venueId": "8",
+       "startTime": "05:30",
+       "endTime": "11:25",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:30",
+       "endTime": "16:00",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "07:00",
+       "endTime": "08:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "07:00",
+       "endTime": "24:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "09:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "24:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "09:30",
+       "endTime": "16:00",
+       "description": "Just Swim (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "09:30",
+       "endTime": "10:15",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:15",
+       "endTime": "11:00",
+       "description": "Aqua Zumba",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "10:15",
+       "endTime": "11:00",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "11:00",
+       "endTime": "24:00",
+       "description": "Baby Splash (6 months - 4 years)",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "11:30",
+       "endTime": "24:30",
+       "description": "Aqua Aerobics",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:00",
+       "endTime": "15:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Age UK",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:00",
+       "endTime": "16:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "14:00",
+       "description": "Age UK",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "24:15",
+       "endTime": "13:15",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:30",
+       "endTime": "13:30",
+       "description": "Aqua Zumba",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:35",
+       "endTime": "13:25",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "15:00",
+       "endTime": "16:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "19:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "15:00",
+       "endTime": "15:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Family Swim",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "22:00",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:30",
+       "description": "Just Swim (Partly Deep Water)",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "18:05",
+       "endTime": "19:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "19:00",
+       "endTime": "20:00",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "19:00",
+       "endTime": "20:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "20:00",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "20:00",
+       "endTime": "20:45",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "20:15",
+       "endTime": "21:00",
+       "description": "Aqua Circuits",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Swimfit",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "21:10",
+       "endTime": "22:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      }
+     ]
+    },
+    {
+     "day": 2,
+     "items": [
+      {
+       "venueId": "8",
+       "startTime": "05:30",
+       "endTime": "09:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:30",
+       "endTime": "15:15",
+       "description": "Lane (25m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "06:45",
+       "endTime": "08:15",
+       "description": "Swimfit",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "07:00",
+       "endTime": "08:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "07:00",
+       "endTime": "13:00",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "07:00",
+       "endTime": "08:45",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "09:00",
+       "endTime": "24:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "10:15",
+       "endTime": "11:00",
+       "description": "Aqua Aerobics",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "11:00",
+       "endTime": "24:00",
+       "description": "Ladies Only",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "11:20",
+       "endTime": "24:15",
+       "description": "Swim-a-song (5 months - 4 years)",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "24:00",
+       "endTime": "13:30",
+       "description": "Disability and Autism Friendly Session",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:00",
+       "endTime": "13:15",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "24:00",
+       "endTime": "13:15",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:00",
+       "description": "Splish Splash",
+       "room": "Teaching Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:00",
+       "endTime": "16:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "24:00",
+       "endTime": "13:00",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "24:25",
+       "endTime": "15:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "13:30",
+       "endTime": "14:30",
+       "description": "Ladies Only",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "13:30",
+       "endTime": "14:30",
+       "description": "Ladies Only",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "14:30",
+       "endTime": "15:30",
+       "description": "Ladies Only Adult",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "14:30",
+       "endTime": "15:15",
+       "description": "Aqua Aerobics - Ladies Only",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "15:45",
+       "description": "Just Swim",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "2",
+       "startTime": "15:00",
+       "endTime": "19:15",
+       "description": "Lane Swimming",
+       "room": "Main Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "15:15",
+       "endTime": "16:00",
+       "description": "Lane - Limited Availability During This Time",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "16:00",
+       "endTime": "19:00",
+       "description": "Leisure Swimming",
+       "room": "Beach Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "16:00",
+       "endTime": "22:00",
+       "description": "Lane (50m) Swimming",
+       "room": "Competition Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "18:00",
+       "endTime": "19:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:00",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "27",
+       "startTime": "18:05",
+       "endTime": "20:00",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "18:05",
+       "endTime": "19:55",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "19:20",
+       "endTime": "20:05",
+       "description": "Aqua Zumba",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "19:30",
+       "endTime": "20:30",
+       "description": "Aqua Aerobics",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "20:00",
+       "endTime": "21:00",
+       "description": "Aqua Zumba",
+       "room": "Rock Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "1",
+       "startTime": "20:15",
+       "endTime": "21:15",
+       "description": "Swimfit",
+       "room": "Leisure Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "26",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Lane Swimming",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "16",
+       "startTime": "20:30",
+       "endTime": "21:30",
+       "description": "Just Swim",
+       "room": "Swimming Pool",
+       "alterations": []
+      },
+      {
+       "venueId": "8",
+       "startTime": "21:10",
+       "endTime": "22:00",
+       "description": "Lane Swimming",
+       "room": "Rock Pool",
+       "alterations": []
+      }
+     ]
     }
    ],
    "venues": [
@@ -40,81 +2172,7 @@
   },
   "timetables": [
    {
-    "id": "timetableId/2/164",
-    "name": "Swimming (Term Time)",
     "days": [
-     {
-      "day": 0,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "19:30",
-        "endTime": "21:30",
-        "description": "Lane (50m) Swimming",
-        "room": "Competition Pool",
-        "alterations": [
-         {
-          "date": "4th June",
-          "message": "Lane swimming unavailable due to essential maintenance"
-         },
-         {
-          "date": "11th June",
-          "message": "Lane Swimming will be available 8.00am - 9.30pm in the 25m Competition Pool."
-         },
-         {
-          "date": "18th June",
-          "message": "Lane Swimming will be available 8.00am - 5.30pm in the 25m Competition Pool &amp; 7.00pm - 9.30pm in the 50m Competition Pool."
-         },
-         {
-          "date": "25th June",
-          "message": "Lane Swimming will be available 8.30pm - 9.30pm in the 50m Competition Pool."
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "day": 1,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "06:30",
-        "endTime": "16:00",
-        "description": "Lane (25m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       },
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "22:00",
-        "description": "Lane (25m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       }
-      ]
-     },
-     {
-      "day": 2,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "06:30",
-        "endTime": "15:15",
-        "description": "Lane (25m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       },
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "22:00",
-        "description": "Lane (50m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       }
-      ]
-     },
      {
       "day": 3,
       "items": [
@@ -203,20 +2261,53 @@
         ]
        }
       ]
-     }
-    ]
-   },
-   {
-    "id": "timetableId/99/164",
-    "name": "Swimming (Half Term 29th May - 4th June)",
-    "days": [
+     },
      {
       "day": 0,
-      "items": []
+      "items": [
+       {
+        "venueId": "1",
+        "startTime": "19:30",
+        "endTime": "21:30",
+        "description": "Lane (50m) Swimming",
+        "room": "Competition Pool",
+        "alterations": [
+         {
+          "date": "11th June",
+          "message": "Lane Swimming will be available 8.00am - 9.30pm in the 25m Competition Pool."
+         },
+         {
+          "date": "18th June",
+          "message": "Lane Swimming will be available 8.00am - 5.30pm in the 25m Competition Pool &amp; 7.00pm - 9.30pm in the 50m Competition Pool."
+         },
+         {
+          "date": "25th June",
+          "message": "Lane Swimming will be available 8.30pm - 9.30pm in the 50m Competition Pool."
+         }
+        ]
+       }
+      ]
      },
      {
       "day": 1,
-      "items": []
+      "items": [
+       {
+        "venueId": "1",
+        "startTime": "06:30",
+        "endTime": "16:00",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool",
+        "alterations": []
+       },
+       {
+        "venueId": "1",
+        "startTime": "16:00",
+        "endTime": "22:00",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool",
+        "alterations": []
+       }
+      ]
      },
      {
       "day": 2,
@@ -224,7 +2315,7 @@
        {
         "venueId": "1",
         "startTime": "06:30",
-        "endTime": "16:00",
+        "endTime": "15:15",
         "description": "Lane (25m) Swimming",
         "room": "Competition Pool",
         "alterations": []
@@ -235,82 +2326,6 @@
         "endTime": "22:00",
         "description": "Lane (50m) Swimming",
         "room": "Competition Pool",
-        "alterations": []
-       }
-      ]
-     },
-     {
-      "day": 3,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "06:30",
-        "endTime": "16:00",
-        "description": "Lane (25m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       },
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "22:00",
-        "description": "Lane (50m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       }
-      ]
-     },
-     {
-      "day": 4,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "06:30",
-        "endTime": "16:00",
-        "description": "Lane (25m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       },
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "22:00",
-        "description": "Lane (50m) Swimming",
-        "room": "Competition Pool",
-        "alterations": []
-       }
-      ]
-     },
-     {
-      "day": 5,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "06:30",
-        "endTime": "16:00",
-        "description": "Lane (25m) Swimming",
-        "room": "Leisure Pool",
-        "alterations": []
-       },
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "21:30",
-        "description": "Lane (50m) Swimming",
-        "room": "Leisure Pool",
-        "alterations": []
-       }
-      ]
-     },
-     {
-      "day": 6,
-      "items": [
-       {
-        "venueId": "1",
-        "startTime": "16:00",
-        "endTime": "21:30",
-        "description": "Lane (25m) Swimming",
-        "room": "Diving Pool",
         "alterations": []
        }
       ]
@@ -321,36 +2336,15 @@
   "_trace": {
    "activity": {
     "parse": {
-     "startTime": 1496565942792,
-     "duration": 2
+     "startTime": 1496830222071,
+     "duration": 176
     },
     "PondsForgeAPI.fetchActivity": {
-     "startTime": 1496565942703,
-     "duration": 91
+     "startTime": 1496830221744,
+     "duration": 503
     }
    },
-   "timetables": [
-    {
-     "parse": {
-      "startTime": 1496565943198,
-      "duration": 83
-     },
-     "PondsForgeAPI.timetable": {
-      "startTime": 1496565942794,
-      "duration": 487
-     }
-    },
-    {
-     "parse": {
-      "startTime": 1496565943422,
-      "duration": 81
-     },
-     "PondsForgeAPI.timetable": {
-      "startTime": 1496565942795,
-      "duration": 708
-     }
-    }
-   ]
+   "timetables": []
   },
   "vendor": "Ponds Forge"
  },
@@ -375,17 +2369,35 @@
     "days": [
      {
       "day": 1,
-      "items": []
+      "items": [
+       {
+        "venueId": "1",
+        "description": "Closed for maintenance",
+        "startTime": "07:00",
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
+       }
+      ]
      },
      {
       "day": 2,
       "items": [
        {
         "venueId": "1",
-        "description": "Lane Swimming",
+        "description": "Closed for maintenance",
         "startTime": "07:00",
-        "endTime": "21:00",
-        "room": "Swimming Pool"
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
        }
       ]
      },
@@ -394,10 +2406,15 @@
       "items": [
        {
         "venueId": "1",
-        "description": "Lane Swimming",
+        "description": "Closed for maintenance",
         "startTime": "07:00",
-        "endTime": "21:00",
-        "room": "Swimming Pool"
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
        }
       ]
      },
@@ -406,10 +2423,15 @@
       "items": [
        {
         "venueId": "1",
-        "description": "Lane Swimming",
+        "description": "Closed for maintenance",
         "startTime": "07:00",
-        "endTime": "21:00",
-        "room": "Swimming Pool"
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
        }
       ]
      },
@@ -418,10 +2440,15 @@
       "items": [
        {
         "venueId": "1",
-        "description": "Lane Swimming",
+        "description": "Closed for maintenance",
         "startTime": "07:00",
-        "endTime": "20:00",
-        "room": "Swimming Pool"
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
        }
       ]
      },
@@ -430,16 +2457,34 @@
       "items": [
        {
         "venueId": "1",
-        "description": "Lane Swimming",
-        "startTime": "08:00",
-        "endTime": "16:00",
-        "room": "Swimming Pool"
+        "description": "Closed for maintenance",
+        "startTime": "07:00",
+        "endTime": "22:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
        }
       ]
      },
      {
       "day": 0,
-      "items": []
+      "items": [
+       {
+        "venueId": "1",
+        "description": "Closed for maintenance",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "room": "Swimming Pool",
+        "alterations": [
+         {
+          "message": "Closed for maintenance"
+         }
+        ]
+       }
+      ]
      }
     ]
    }
