@@ -46,10 +46,8 @@ class S10API {
     }
 
     _stripAllButLaneSwimming(response) {
-        const VENUE_ID_PONDS_FORGE = "1";
         return Object.assign({}, response, {
             timetables: response.timetables.map(timetable => {
-                timetable = Timetable.filterByVenueId(timetable, VENUE_ID_PONDS_FORGE);
                 timetable = Timetable.filterByDescription(timetable, /Lane.*Swimming|Closed.*/);
                 return timetable;
             }),
