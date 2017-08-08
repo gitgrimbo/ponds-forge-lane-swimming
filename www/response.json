@@ -1,0 +1,3948 @@
+{
+ "activity": {
+  "timetables": [
+   {
+    "id": "timetableId/2/164",
+    "name": "Swimming (Term Time)"
+   },
+   {
+    "id": "timetableId/99/164",
+    "name": "Swimming (Half Term 29th May - 4th June)"
+   }
+  ],
+  "venues": [
+   {
+    "id": "2",
+    "name": "Concord SC"
+   },
+   {
+    "id": "27",
+    "name": "Heeley Pool"
+   },
+   {
+    "id": "8",
+    "name": "Hillsborough LC"
+   },
+   {
+    "id": "1",
+    "name": "Ponds Forge"
+   },
+   {
+    "id": "26",
+    "name": "Springs LC"
+   },
+   {
+    "id": "16",
+    "name": "Westfield SC"
+   }
+  ]
+ },
+ "timetables": [
+  [
+   {
+    "day": "1",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "11:25 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "4:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": [
+       {
+        "date": "29th May",
+        "message": "Lane swimming unavailable."
+       }
+      ]
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "9:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "12:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:30 am",
+      "endTime": "4:00 pm",
+      "description": "Just Swim (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:30 am",
+      "endTime": "10:15 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Zumba",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "Baby Splash (6 months - 4 years)",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:30 am",
+      "endTime": "12:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "3:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Age UK",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "2:00 pm",
+      "description": "Age UK",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:15 pm",
+      "endTime": "1:15 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:30 pm",
+      "endTime": "1:30 pm",
+      "description": "Aqua Zumba",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:35 pm",
+      "endTime": "1:25 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:30 pm",
+      "description": "Just Swim (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "8:00 pm",
+      "endTime": "8:45 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "8:15 pm",
+      "endTime": "9:00 pm",
+      "description": "Aqua Circuits",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": [
+       {
+        "date": "29th May",
+        "message": "Session cancelled due to the Bank Holiday."
+       }
+      ]
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:10 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "2",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "9:00 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "3:15 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:45 am",
+      "endTime": "8:15 am",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "1:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:45 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "12:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "Ladies Only",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:20 am",
+      "endTime": "12:15 pm",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Disability and Autism Friendly Session",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "1:15 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:25 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:30 pm",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:15 pm",
+      "description": "Aqua Aerobics - Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "3:45 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "7:15 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "3:15 pm",
+      "endTime": "4:00 pm",
+      "description": "Lane - Limited Availability During This Time",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": [
+       {
+        "date": "6th June",
+        "message": "The swimming pool and sauna will be closed to the public 6.05 pm - 8.00 pm on 6th June 2017 due to a private hire booking."
+       }
+      ]
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": [
+       {
+        "date": "6th June",
+        "message": "The swimming pool and sauna will be closed to the public 6.05 pm - 8.00 pm on 6th June 2017 due to a private hire booking."
+       }
+      ]
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "7:20 pm",
+      "endTime": "8:05 pm",
+      "description": "Aqua Zumba",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "7:30 pm",
+      "endTime": "8:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "8:00 pm",
+      "endTime": "9:00 pm",
+      "description": "Aqua Zumba",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "8:15 pm",
+      "endTime": "9:15 pm",
+      "description": "Swimfit",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:10 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "3",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "9:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "3:15 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "9:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "12:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "9:30 am",
+      "endTime": "10:30 am",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:30 am",
+      "endTime": "4:00 pm",
+      "description": "Just Swim (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:30 am",
+      "endTime": "10:15 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:00 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:00 am",
+      "endTime": "11:00 am",
+      "description": "Age UK",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "10:30 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:00 am",
+      "endTime": "3:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming For Beginners",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:15 am",
+      "endTime": "12:15 pm",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Swimming For Slimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:25 pm",
+      "endTime": "1:35 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "2:35 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "3:45 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "3:15 pm",
+      "endTime": "4:00 pm",
+      "description": "Lane - Limited Availability During This Time",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "4:00 pm",
+      "endTime": "5:00 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:45 pm",
+      "description": "Just Swim (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:00 pm",
+      "description": "Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "6:25 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "7:00 pm",
+      "endTime": "8:30 pm",
+      "description": "Water Polo",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Aqua Aerobics",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:10 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "8:15 pm",
+      "endTime": "9:15 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:20 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "4",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "9:00 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "3:15 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "9:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:45 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "12:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "9:45 am",
+      "endTime": "10:30 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "10:30 am",
+      "endTime": "11:15 am",
+      "description": "Ducklings Lessons (18 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "Ladies Only",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "11:15 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "11:15 am",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:15 am",
+      "endTime": "12:15 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "4:00 pm",
+      "description": "Just Swim (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Disability and Autism Friendly Session",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:20 pm",
+      "endTime": "1:25 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:15 pm",
+      "endTime": "2:00 pm",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:45 pm",
+      "endTime": "2:30 pm",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "3:15 pm",
+      "endTime": "4:00 pm",
+      "description": "Lane - Limited Availability During This Time",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:15 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "7:30 pm",
+      "endTime": "8:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:45 pm",
+      "endTime": "9:00 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "5",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "1:20 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "3:15 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "9:00 am",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Ladies Only Lane",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "8:00 am",
+      "endTime": "9:00 am",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:00 am",
+      "endTime": "10:45 am",
+      "description": "Ladies Only (Partly Deep Water)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "12:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Age UK",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "2:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "2:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Swimming For Slimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:30 pm",
+      "endTime": "3:45 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:30 pm",
+      "endTime": "3:45 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "3:15 pm",
+      "endTime": "4:00 pm",
+      "description": "Lane - Limited Availability During This Time",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "3:30 pm",
+      "endTime": "5:00 pm",
+      "description": "Silver Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:45 pm",
+      "endTime": "6:40 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "4:30 pm",
+      "endTime": "5:15 pm",
+      "description": "Pool Party",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "6:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "6:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "5:15 pm",
+      "endTime": "6:00 pm",
+      "description": "Pool Party",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "8:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "6:45 pm",
+      "endTime": "8:15 pm",
+      "description": "Pool Party",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:05 pm",
+      "endTime": "9:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "7:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Tranquil Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "6",
+    "items": [
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 am",
+      "endTime": "7:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "8:00 am",
+      "endTime": "4:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:30 am",
+      "endTime": "5:15 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:15 pm",
+      "endTime": "1:00 pm",
+      "description": "&#xA3;1 Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:30 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:30 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:30 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:00 pm",
+      "endTime": "1:45 pm",
+      "description": "&#xA3;1 Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Splash Session",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Splash Session",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Splash Session",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:45 pm",
+      "endTime": "2:45 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:45 pm",
+      "endTime": "3:45 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "3:45 pm",
+      "endTime": "4:45 pm",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Diving Pool",
+      "alterations": [
+       {
+        "date": "3rd June",
+        "message": "Lane Swimming will be available 4.00pm - 9.30pm in the 25m Diving Pool."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "0",
+    "items": [
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 am",
+      "endTime": "8:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:00 am",
+      "endTime": "10:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "8:00 am",
+      "endTime": "6:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "8:30 am",
+      "endTime": "9:00 am",
+      "description": "Swim-a-song (5 months - 4 years)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "9:00 am",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:30 am",
+      "endTime": "5:15 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "11:00 am",
+      "endTime": "1:15 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:10 am",
+      "endTime": "11:50 am",
+      "description": "Junior Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:40 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:40 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Splash Session",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "7:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": [
+       {
+        "date": "4th June",
+        "message": "Lane swimming unavailable"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "day": "1",
+    "items": [
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:30 am",
+      "endTime": "11:25 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Zumba",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:30 am",
+      "endTime": "12:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:30 pm",
+      "endTime": "1:30 pm",
+      "description": "Aqua Zumba",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:35 pm",
+      "endTime": "1:25 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:15 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:15 pm",
+      "endTime": "3:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:15 pm",
+      "endTime": "3:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "6:30 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:10 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "4:00 pm",
+      "endTime": "6:30 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:30 pm",
+      "endTime": "6:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "9:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:45 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "2",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "8:50 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "4:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:45 am",
+      "endTime": "8:15 am",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "1:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "10:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "10:00 am",
+      "endTime": "11:30 am",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "11:00 am",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:15 am",
+      "endTime": "12:15 pm",
+      "description": "Swimming Lessons",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "1:15 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:25 pm",
+      "endTime": "3:50 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:15 pm",
+      "description": "Aqua Aerobics - Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:30 pm",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "3:45 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "7:15 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:30 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "7:20 pm",
+      "endTime": "8:05 pm",
+      "description": "Aqua Zumba",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "7:30 pm",
+      "endTime": "8:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "8:00 pm",
+      "endTime": "9:00 pm",
+      "description": "Aqua Zumba",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "8:15 pm",
+      "endTime": "9:15 pm",
+      "description": "Swimfit",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:10 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "3",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "9:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "4:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "9:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "9:30 am",
+      "endTime": "10:30 am",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:30 am",
+      "endTime": "2:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:00 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "10:30 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:00 am",
+      "endTime": "2:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:15 am",
+      "endTime": "12:15 pm",
+      "description": "Swimming Lessons",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim (Adult Only)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:25 pm",
+      "endTime": "1:35 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:00 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:15 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "1:45 pm",
+      "endTime": "2:25 pm",
+      "description": "Ducklings Lessons (3-5 years)",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:15 pm",
+      "endTime": "3:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:15 pm",
+      "endTime": "3:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:30 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "2:35 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "3:45 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "4:00 pm",
+      "endTime": "5:00 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:30 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:05 pm",
+      "endTime": "7:00 pm",
+      "description": "Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:45 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "6:25 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:10 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Aqua Aerobics",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "8:15 pm",
+      "endTime": "9:15 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:20 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "4",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "8:50 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "4:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "10:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "10:00 am",
+      "endTime": "11:30 am",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:15 am",
+      "endTime": "11:00 am",
+      "description": "Aqua Aerobics",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:15 am",
+      "endTime": "12:15 pm",
+      "description": "Aqua Aerobics",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "11:15 am",
+      "endTime": "12:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "11:15 am",
+      "endTime": "12:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:30 am",
+      "endTime": "4:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Swimfit",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim (Adult Only)",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:20 pm",
+      "endTime": "3:55 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:00 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:30 pm",
+      "endTime": "3:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "4:00 pm",
+      "endTime": "9:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:30 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "8:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:15 pm",
+      "endTime": "7:10 pm",
+      "description": "Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "6:15 pm",
+      "endTime": "10:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:30 pm",
+      "endTime": "9:00 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "7:30 pm",
+      "endTime": "8:30 pm",
+      "description": "Aqua Aerobics",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "5",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "5:30 am",
+      "endTime": "1:25 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "6:30 am",
+      "endTime": "4:00 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "7:00 am",
+      "endTime": "9:00 am",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:00 am",
+      "description": "Ladies Only Lane",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "8:00 am",
+      "endTime": "9:00 am",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "9:00 am",
+      "endTime": "10:45 am",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "11:00 am",
+      "endTime": "4:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "&#xA3;1.50 Junior Swim / &#xA3;5 Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "11:00 am",
+      "endTime": "12:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "12:00 pm",
+      "endTime": "1:30 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "2:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:00 pm",
+      "endTime": "2:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:00 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "2:30 pm",
+      "description": "Ladies Only",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:30 pm",
+      "endTime": "6:40 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "2:30 pm",
+      "endTime": "3:45 pm",
+      "description": "Splish Splash",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "3:30 pm",
+      "endTime": "5:00 pm",
+      "description": "Silver Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane (50m) Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "4:30 pm",
+      "endTime": "7:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "4:30 pm",
+      "endTime": "6:00 pm",
+      "description": "Pool Party",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "8:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "5:00 pm",
+      "endTime": "8:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "8:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "6:00 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "7:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "6:05 pm",
+      "endTime": "7:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "6:40 pm",
+      "endTime": "7:45 pm",
+      "description": "Pool Party",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:00 pm",
+      "endTime": "8:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "7:05 pm",
+      "endTime": "9:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "8:30 pm",
+      "endTime": "9:30 pm",
+      "description": "Tranquil Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "6",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "7:00 am",
+      "endTime": "7:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "8:00 am",
+      "endTime": "4:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:30 am",
+      "endTime": "5:15 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "12:15 pm",
+      "endTime": "1:00 pm",
+      "description": "&#xA3;1 Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:30 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:35 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:35 pm",
+      "endTime": "1:30 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:00 pm",
+      "endTime": "1:45 pm",
+      "description": "&#xA3;1 Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:00 pm",
+      "endTime": "2:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Splash Session",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Splash Session",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "1:45 pm",
+      "endTime": "2:45 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "2:00 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "2:45 pm",
+      "endTime": "3:45 pm",
+      "description": "Ladies Only",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "3:45 pm",
+      "endTime": "4:45 pm",
+      "description": "Ladies Only Adult",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "4:00 pm",
+      "endTime": "9:30 pm",
+      "description": "Lane (25m) Swimming",
+      "room": "Diving Pool",
+      "alterations": []
+     }
+    ]
+   },
+   {
+    "day": "0",
+    "items": [
+     {
+      "venueId": "8",
+      "startTime": "7:00 am",
+      "endTime": "8:55 am",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "7:00 am",
+      "endTime": "8:30 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "8:00 am",
+      "endTime": "10:00 am",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "8:00 am",
+      "endTime": "6:00 pm",
+      "description": "Lane Swimming",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "9:00 am",
+      "endTime": "10:30 am",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "9:00 am",
+      "endTime": "1:15 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "26",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Splash Session",
+      "room": "Main Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "10:00 am",
+      "endTime": "1:00 pm",
+      "description": "Splash Session",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "10:00 am",
+      "endTime": "1:15 pm",
+      "description": "Just Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "1",
+      "startTime": "10:30 am",
+      "endTime": "5:15 pm",
+      "description": "Leisure Swimming",
+      "room": "Leisure Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "10:30 am",
+      "endTime": "3:00 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "11:10 am",
+      "endTime": "11:50 am",
+      "description": "Junior Swimfit",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "12:40 pm",
+      "endTime": "1:30 pm",
+      "description": "Lane Swimming",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "12:45 pm",
+      "endTime": "5:00 pm",
+      "description": "Lane Swimming",
+      "room": "Rock Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "27",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Swim",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "16",
+      "startTime": "1:30 pm",
+      "endTime": "3:00 pm",
+      "description": "Family Splash",
+      "room": "Swimming Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "8",
+      "startTime": "3:00 pm",
+      "endTime": "4:30 pm",
+      "description": "Leisure Swimming",
+      "room": "Beach Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Teaching Pool",
+      "alterations": []
+     },
+     {
+      "venueId": "2",
+      "startTime": "3:00 pm",
+      "endTime": "4:00 pm",
+      "description": "Family Swim",
+      "room": "Main Pool",
+      "alterations": []
+     }
+    ]
+   }
+  ]
+ ],
+ "_trace": {
+  "activity": {
+   "parse": {
+    "startTime": 1496074087294,
+    "duration": 16
+   },
+   "fetchActivity": {
+    "startTime": 1496074087022,
+    "duration": 288
+   }
+  },
+  "timetables": [
+   {
+    "parse": {
+     "startTime": 1496074088026,
+     "duration": 80
+    },
+    "timetable": {
+     "startTime": 1496074087310,
+     "duration": 796
+    }
+   },
+   {
+    "parse": {
+     "startTime": 1496074087860,
+     "duration": 88
+    },
+    "timetable": {
+     "startTime": 1496074087310,
+     "duration": 638
+    }
+   }
+  ]
+ }
+}

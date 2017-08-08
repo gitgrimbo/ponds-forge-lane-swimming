@@ -1,0 +1,25 @@
+<!doctype html>
+
+<div id="content"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    function renderResponse(response) {
+        function makeTimetableElement(timetable) {
+            const el = $("<div>");
+            el.html(JSON.stringify(timetable, null, 1));
+            return el;
+        }
+        response.timetables.forEach((timetable, i) => {
+            const container = $("<div>");
+            $("<h1>").html(response.activity.timetables[i].name).appendTo(container);
+            makeTimetableElement(timetable).appendTo(container);
+            $("#content").append(container);
+        });
+    }
+
+    $.ajax({
+        url: "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/pondsForgeLaneSwimmingData?" + +new Date(),
+        method: "GET",
+    }).then(renderResponse);
+</script>

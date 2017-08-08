@@ -1,0 +1,31 @@
+{
+  "name": "ponds-forge-lane-swimming-lambda",
+  "version": "0.0.1",
+  "description": "Ponds Forge Lane Swimming Timetable",
+  "main": "index.js",
+  "author": "Paul Grime",
+  "license": "ISC",
+  "scripts": {
+    "test": "npm run test:unit",
+    "package": "serverless package",
+    "deploy": "npm run build && serverless deploy",
+    "test:unit": "mocha lib/**/test/*.test.js",
+    "test:unit:watch": "mocha --watch lib/**/test/*.test.js",
+    "test:integration": "mocha lib/**/test/*.itest.js",
+    "build": "rimraf dist && mkdirp dist && browserify index.js --outfile dist/index.js --standalone index --node"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "chai": "^4.0.0",
+    "load-json-file": "^2.0.0",
+    "mocha": "^3.4.2",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "compression": "^1.6.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "string-to-stream": "^1.1.0"
+  }
+}

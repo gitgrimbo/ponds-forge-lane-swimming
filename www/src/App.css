@@ -1,0 +1,11 @@
+h1 {
+    font-size: 12pt;
+}
+
+.tableTimetable,
+.tableTimetable>tbody>tr,
+.tableTimetable>tbody>tr>td {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    padding: 2px;
+}

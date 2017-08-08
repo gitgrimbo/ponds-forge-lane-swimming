@@ -1,0 +1,23 @@
+{
+  "name": "ponds-forge-lane-swimming-www",
+  "version": "0.1.0",
+  "homepage": "http://gitgrimbo.github.io/ponds-forge-lane-swimming",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.0",
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "cross-env BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
