@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const DAYS = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+const DAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
+
+const DEBUG = (window.location.href.indexOf("DEBUG") > -1);
 
 class Item extends Component {
   render() {
     const { item } = this.props;
     const alterations = [];
     if (item.alterations && item.alterations.length > 0) {
-      item.alterations.forEach(alteration => {
-        alterations.push(<br />);
-        alterations.push(<span style={{ color: "red" }}>{alteration.date + ", " + alteration.message}</span>);
+      item.alterations.forEach((alteration, i) => {
+        alterations.push(<br key={"br" + i} />);
+        const date = alteration.date || "No date";
+        alterations.push(<span key={"alteration-" + i} style={{ color: "red" }}>{date + ", " + alteration.message}</span>);
       });
     }
     return (
@@ -25,8 +28,7 @@ class Item extends Component {
 }
 
 function dayRows(day) {
-  const dayIdx = parseInt(day.day, 10);
-  const dayName = isNaN(dayIdx) ? day.day : DAYS[dayIdx];
+  const dayName = isNaN(day.day) ? day.day : DAYS[day.day];
   const item0 = day.items[0];
   if (!item0) {
     return null;
@@ -44,8 +46,9 @@ function dayRows(day) {
 
 class App extends Component {
   componentDidMount() {
-    const url = "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/laneSwimmingData";
-    //const url = "http://localhost:8080/20170603-111016_laneSwimming.json";
+    const realURL = "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/laneSwimmingData";
+    const debugURL = "./test/laneSwimming.json";
+    const url = DEBUG ? debugURL : realURL;
     axios.get(url + "?" + new Date().getTime())
       .then(response => this.setState({ data: response.data }));
   }
