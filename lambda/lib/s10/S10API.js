@@ -47,7 +47,7 @@ class S10API {
         return Object.assign({}, response, {
             timetables: response.timetables.map(timetable => {
                 timetable = Timetable.filterByVenueId(timetable, VENUE_ID_PONDS_FORGE);
-                timetable = Timetable.filterByDescription(timetable, /Lane.*Swimming/);
+                timetable = Timetable.filterByDescription(timetable, /Lane.*Swimming|Closed.*/);
                 return timetable;
             }),
         });
