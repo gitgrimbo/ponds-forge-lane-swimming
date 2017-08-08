@@ -33,6 +33,12 @@ function fetchTimetable(id, opts) {
 }
 
 class PondsForgeAPI {
+    _mergeTimetables(activity, timetables) {
+        return timetables.map((timetable, i) => Object.assign({}, activity.timetables[i], {
+            days: timetable,
+        }));
+    }
+
     _timetables(opts) {
         const response = {};
         return this.activity(null, opts)
@@ -42,13 +48,22 @@ class PondsForgeAPI {
             .then(timetables => {
                 const timetablesTrace = Trace.pluckTraces(timetables);
                 const activityTrace = Trace.pluckTrace(response.activity);
-                response.timetables = timetables.map((timetable, i) => Object.assign({}, response.activity.timetables[i], {
-                    days: timetable,
-                }));
+
+                let defaultTimetable = null;
+                if (response.activity.defaultTimetable) {
+                    defaultTimetable = {
+                        days: response.activity.defaultTimetable,
+                    };
+                }
+
+                response.timetables = defaultTimetable ? [defaultTimetable] : [];
+                response.timetables = response.timetables.concat(this._mergeTimetables(response.activity, timetables));
+
                 response._trace = {
                     activity: activityTrace,
                     timetables: timetablesTrace,
                 };
+
                 return response;
             });
     }
@@ -58,7 +73,8 @@ class PondsForgeAPI {
         return Object.assign({}, response, {
             timetables: response.timetables.map(timetable => {
                 timetable = Timetable.filterByVenueId(timetable, VENUE_ID_PONDS_FORGE);
-                timetable = Timetable.filterByDescription(timetable, /Lane.*Swimming/);
+                // We use $ for end of regex to filter out other Lane Swimming items such as "Lane Swimming For Beginners"
+                timetable = Timetable.filterByDescription(timetable, /Lane.*Swimming$/);
                 return timetable;
             }),
         });

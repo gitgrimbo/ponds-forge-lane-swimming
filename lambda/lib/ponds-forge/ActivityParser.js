@@ -1,6 +1,10 @@
 const cheerio = require("cheerio");
+const TimetableParser = require("./TimetableParser");
 const Trace = require("../Trace");
 
+/**
+ * PFLS = Ponds Forge Lane Swimming.
+ */
 class ActivityParser {
     constructor($, $el) {
         this.$ = $;
@@ -34,16 +38,32 @@ class ActivityParser {
         });
     }
 
+    /**
+     * The PFLS html page can have a default timetable or links to timetables. Links are usually
+     * present when there are two timetables side-by-side like at half term holidays.
+     */
+    extractDefaultTimetable() {
+        const $timetablePlaceholder = this.$el.find("#timetablePlaceholder");
+        const html = $timetablePlaceholder.html().trim();
+        if (!html) {
+            return null;
+        }
+        return TimetableParser.timetableFromHTML(html);
+    }
+
     parse(opts) {
         opts = opts || {};
         const trace = Trace.start(opts.trace);
 
         const $ = this.$;
         const $el = this.$el;
-        const venueElArr = $el.find("*[data-venueid]").toArray();
+
+        const venueElArr = $el.find("a[data-venueid]").toArray();
         const venues = venueElArr.map(this.extractVenueData.bind(this));
+
         return trace.stop("parse", {
             timetables: this.extractTimetables(),
+            defaultTimetable: this.extractDefaultTimetable(),
             venues,
             toString() {
                 return "venues:\n" + this.venues.join("\n") + "\ntimetables:\n" + this.timetables.join("\n");
