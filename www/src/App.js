@@ -90,7 +90,7 @@ class App extends Component {
     const errorInfo = error.statusCode ? [
       error.statusCode,
       error.options && error.options.uri,
-    ] : errorInfo;
+    ] : error;
 
     return (
       <div key={key}>
