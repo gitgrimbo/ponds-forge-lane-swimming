@@ -44,9 +44,8 @@ class TimetableParser {
             .map(dateKey => {
                 const items = dateMap[dateKey];
                 const day = new Date(items[0].start).getDay();
-                const isSunday = day === 0;
                 return {
-                    day: isSunday ? 7 : day,
+                    day,
                     items: items.map(s10ItemToOurAPIItem),
                 }
             });
