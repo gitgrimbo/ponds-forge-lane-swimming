@@ -1,3 +1,6 @@
+// Old API
+// Do not use any more!
+
 const TimetableParser = require("./TimetableParser");
 
 const Timetable = require("../Timetable");

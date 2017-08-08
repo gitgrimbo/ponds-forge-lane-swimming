@@ -96,8 +96,11 @@ describe("Main", () => {
                 expect(response).to.be.an("array");
 
                 const r0 = response[0];
+                const { value, vendor } = r0;
+                expect(value).to.be.an("object");
+                expect(vendor).to.equal("Ponds Forge");
 
-                const { activity, timetables } = r0;
+                const { activity, timetables } = value;
 
                 expect(activity).to.be.an("object");
                 expect(activity.timetables).to.be.an("array");

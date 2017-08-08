@@ -4,7 +4,10 @@ import "./App.css";
 
 const DAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
-const DEBUG = (window.location.href.indexOf("DEBUG") > -1);
+const url = new URL(window.location.href);
+console.log("Use DEBUG query parameter to use local data (not live data).");
+const DEBUG = url.searchParams.get("DEBUG") !== "false";
+const localDataSource = url.searchParams.get("localDataSource");
 
 class Item extends Component {
   render() {
@@ -45,10 +48,27 @@ function dayRows(day) {
 }
 
 class App extends Component {
+  getLocalDataSourceURL(localDataSourceName) {
+    switch (localDataSource) {
+      case "ok": return "./test/laneSwimming.json";
+      case "singleDataSourceError": return "./test/laneSwimming.s10error.json";
+      case "error": return "./test/laneSwimming.error.json";
+      default: return null;
+    }
+  }
+
+  getDataSourceURL(localDataSource) {
+    if (DEBUG && localDataSource) {
+      const url = this.getLocalDataSourceURL(localDataSource);
+      if (url) {
+        return url;
+      }
+    }
+    return "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/laneSwimmingData";
+  }
+
   componentDidMount() {
-    const realURL = "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/laneSwimmingData";
-    const debugURL = "./test/laneSwimming.json";
-    const url = DEBUG ? debugURL : realURL;
+    const url = this.getDataSourceURL(localDataSource);
     axios.get(url + "?" + new Date().getTime())
       .then(response => this.setState({ data: response.data }));
   }
@@ -56,7 +76,7 @@ class App extends Component {
   renderTimetable(timetable, vendor, key) {
     return (
       <div key={key}>
-        <h1>{timetable.name} ({vendor || "Unknown vendor"})</h1>
+        <h1>{timetable.name || "Regular Timetable"} ({vendor || "Unknown vendor"})</h1>
         <table className="tableTimetable" cellSpacing={0} cellPadding={0}>
           <tbody>
             {timetable.days.map(dayRows)}
@@ -66,13 +86,32 @@ class App extends Component {
     );
   }
 
+  renderError(error, vendor, key) {
+    const errorInfo = error.statusCode ? [
+      error.statusCode,
+      error.options && error.options.uri,
+    ] : errorInfo;
+
+    return (
+      <div key={key}>
+        <h1>Error {vendor || "Unknown vendor"}</h1>
+        <div>{String(errorInfo)}</div>
+      </div>
+    );
+  }
+
   renderApp(data) {
     if (!data) {
       return null;
     }
-    return data.map(activitiesForVenue => {
-      const { vendor, timetables } = activitiesForVenue;
-      return timetables.map((timetable, i) => this.renderTimetable(timetable, vendor, i));
+    return data.map((vendorData, vendorIdx) => {
+      const { error, value, vendor } = vendorData;
+      if (!error) {
+        const { timetables } = value;
+        const renderTimetable = (timetable, timetableIdx) => this.renderTimetable(timetable, vendor, timetableIdx);
+        return timetables.map(renderTimetable);
+      }
+      return this.renderError(error, vendor, vendorIdx);
     });
   }
 
