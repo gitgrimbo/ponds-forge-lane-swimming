@@ -6,7 +6,7 @@ const path = require("path");
 const date = require("../date");
 const LaneSwimmingAPI = require("../LaneSwimmingAPI");
 const PondsForgeAPI = require("../ponds-forge/PondsForgeAPI");
-const S10API = require("../s10/S10API");
+const S10API = require("../s10v2/S10API");
 
 const expect = chai.expect;
 

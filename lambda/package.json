@@ -24,6 +24,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.1",
     "compression": "^1.6.2",
+    "date-fns": "^1.28.5",
     "left-pad": "^1.1.3",
     "lodash.zip": "^4.2.0",
     "request": "^2.81.0",
