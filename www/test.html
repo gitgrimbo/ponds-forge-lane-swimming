@@ -12,7 +12,6 @@
         }
         response.timetables.forEach((timetable, i) => {
             const container = $("<div>");
-            $("<h1>").html(response.activity.timetables[i].name).appendTo(container);
             makeTimetableElement(timetable).appendTo(container);
             $("#content").append(container);
         });
