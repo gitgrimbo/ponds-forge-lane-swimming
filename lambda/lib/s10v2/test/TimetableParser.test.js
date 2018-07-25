@@ -26,8 +26,8 @@ describe("s10v2/TimetableParser", () => {
 
         const tt1 = timetable[1];
         expect(tt1).to.be.an("object");
-        expect(tt1.day).to.equal(7);
-        expect(tt1.items).to.have.lengthOf(2);
+        expect(tt1.day, "day").to.equal(0);
+        expect(tt1.items, "items").to.have.lengthOf(2);
 
         const tt1item0 = tt1.items[0];
         expect(tt1item0).to.be.an("object");
