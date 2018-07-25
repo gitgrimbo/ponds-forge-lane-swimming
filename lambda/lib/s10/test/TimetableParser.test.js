@@ -46,7 +46,6 @@ describe("s10/TimetableParser", () => {
         const timetable = TimetableParser.timetableFromHTML(html, { trace: true });
 
         expect(timetable).to.have.lengthOf(7);
-        console.log(JSON.stringify(timetable, null, 1));
 
         const tt0 = timetable[0];
         expect(tt0).to.be.an("object");

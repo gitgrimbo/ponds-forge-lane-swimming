@@ -30,7 +30,6 @@ describe("ActivityParser", () => {
         const activity = ActivityParser.activityFromHTML(json.data.html, { trace: true });
 
         expect(activity).to.be.an("object");
-        console.log(activity.venues);
         expect(activity.venues).to.have.lengthOf(6);
         expect(activity.timetables).to.have.lengthOf(0);
 
