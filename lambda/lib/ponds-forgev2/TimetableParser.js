@@ -1,10 +1,7 @@
 const cheerio = require("cheerio");
 const Trace = require("../Trace");
 const normaliseTime = require("../ponds-forge/normaliseTime");
-
-function fixStr(s) {
-    return s.replace(/[\u202F\u00A0]/, " ");
-}
+const fixStr = require("../fixStr");
 
 class TimetableParser {
     constructor($, $el) {
@@ -48,7 +45,7 @@ class TimetableParser {
                     }
                     if (!alteration.match(/see below/i)) {
                         item.alterations.push({
-                            message: fixStr(alteration),
+                            message: alteration,
                         });
                     }
                 }
@@ -66,15 +63,23 @@ class TimetableParser {
             if (match) {
                 return addInfo(match[1].trim(), "Competition Pool", match[2].trim());
             }
+
+            match = item.description.match(/(.*?) ?-? ?Limited Availability(.*)/);
+            if (match) {
+                return addInfo(match[1].trim(), "?", match[2].trim());
+            }
         }
         const items = [];
         let item;
         let expectingAlteration = false;
         lines.forEach((line) => {
-            //console.log(line);
+            // ensure all weird whitespace is converted to regular spaces.
+            line = fixStr(line);
+
             if (!item) {
                 item = newItem();
             }
+
             // Check for this full line and ignore if matches.
             // The real alterations will come on subsequent lines.
             if (line.match(/Changes/)) {
@@ -82,7 +87,7 @@ class TimetableParser {
             }
             if (expectingAlteration) {
                 item.alterations.push({
-                    message: fixStr(line),
+                    message: line,
                 });
                 return;
             }
