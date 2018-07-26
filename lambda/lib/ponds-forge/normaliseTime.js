@@ -8,7 +8,11 @@ module.exports = function normaliseTime(timeStr) {
         return timeStr;
     }
     const hourAndMins = time.split(":");
-    const h = lp(parseInt(hourAndMins[0], 10) + (pm ? 12 : 0), 2, "0");
+    let h = parseInt(hourAndMins[0], 10);
+    if (pm && h < 12) {
+        h += 12;
+    }
+    h = lp(h, 2, "0");
     const m = lp(hourAndMins[1], 2, "0");
     return h + ":" + m;
 };
