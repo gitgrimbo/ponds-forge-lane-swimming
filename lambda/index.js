@@ -1,6 +1,6 @@
 const Stopwatch = require("./lib/Stopwatch");
 const LaneSwimmingAPI = require("./lib/LaneSwimmingAPI");
-const PondsForgeAPI = require("./lib/ponds-forge/PondsForgeAPI");
+const PondsForgeAPI = require("./lib/ponds-forgev2/PondsForgeAPI");
 const S10API = require("./lib/s10/S10API");
 
 const pondsForgeAPI = new PondsForgeAPI();

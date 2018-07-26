@@ -2,7 +2,7 @@ const chai = require("chai");
 const mkdirp = require("mkdirp");
 
 const { saveFile } = require("../utils");
-const PondsForgeAPI = require("../../ponds-forge/PondsForgeAPI");
+const PondsForgeAPI = require("../../ponds-forgev2/PondsForgeAPI");
 
 const expect = chai.expect;
 

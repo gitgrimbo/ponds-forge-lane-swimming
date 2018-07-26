@@ -1,7 +1,7 @@
 const zip = require("lodash.zip");
 
 const Trace = require("./Trace");
-const PondsForgeAPI = require("./ponds-forge/PondsForgeAPI");
+const PondsForgeAPI = require("./ponds-forgev2/PondsForgeAPI");
 const S10API = require("./s10v2/S10API");
 
 class LaneSwimmingAPI {
