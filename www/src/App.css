@@ -1,6 +1,9 @@
 h1 {
     font-size: 12pt;
 }
+h2 {
+    font-size: 10pt;
+}
 
 .tableTimetable,
 .tableTimetable>tbody>tr,

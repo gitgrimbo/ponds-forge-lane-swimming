@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
+import gitInfo from "./static/gitInfo.json";
 
 const DAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
@@ -38,7 +39,7 @@ function dayRows(day) {
   }
   const dayNameCell = (i) => (i === 0) ? <td rowSpan={day.items.length}>{dayName}</td> : null;
   return day.items.map((item, i) => (
-    <tr>
+    <tr key={i}>
       {dayNameCell(i)}
       <td>{item.startTime}</td>
       <td>{item.endTime}</td>
@@ -100,10 +101,7 @@ class App extends Component {
     );
   }
 
-  renderApp(data) {
-    if (!data) {
-      return null;
-    }
+  renderTimetables(data) {
     return data.map((vendorData, vendorIdx) => {
       const { error, value, vendor } = vendorData;
       if (!error) {
@@ -113,6 +111,25 @@ class App extends Component {
       }
       return this.renderError(error, vendor, vendorIdx);
     });
+  }
+
+  renderGitInfo(gitInfo) {
+    return (
+      <React.Fragment>
+        <h2>Version Info</h2>
+        <span>Hash: {gitInfo.hash}, Date: {gitInfo.date}</span>
+      </React.Fragment>
+    )
+  }
+
+  renderApp(data) {
+    return (
+      <div>
+        {data && this.renderTimetables(data)}
+        <hr />
+        {this.renderGitInfo(gitInfo)}
+      </div>
+    );
   }
 
   render() {
