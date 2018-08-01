@@ -13,11 +13,13 @@ function sivXHRRequest(uri, opts) {
     return xhr(opts);
 }
 
-function fetchTimetable(opts) {
-    return sivXHRRequest("https://www.siv.org.uk/page/swimming-ponds-forge", opts);
-}
-
 class PondsForgeAPI {
+    constructor(timetableURL) {
+        this.timetableURL = timetableURL || "https://www.siv.org.uk/page/swimming-ponds-forge";
+        // hack
+        this.timetableURL = "https://www.siv.org.uk/page/holiday-swimming-ponds-forge";
+    }
+
     _stripAllButLaneSwimming(response) {
         const VENUE_ID_PONDS_FORGE = "1";
         return Object.assign({}, response, {
@@ -31,7 +33,7 @@ class PondsForgeAPI {
     }
 
     timetables(opts) {
-        return fetchTimetable(opts)
+        return sivXHRRequest(this.timetableURL, opts)
             .then((html) => TimetableParser.timetableFromHTML(html))
             .then((timetable) => {
                 return {

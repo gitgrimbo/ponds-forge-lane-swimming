@@ -1,45 +1,17 @@
-const chai = require("chai");
+const { expect } = require("chai");
 const fs = require("fs");
 const path = require("path");
+
+const { newTimetableItem, expectTimetableItem } = require("./utils");
 const TimetableParser = require("../TimetableParser");
 
-const expect = chai.expect;
-
 describe("ponds-forgev2/TimetableParser", () => {
-    it("timetableFromHTML", () => {
+    it("swimming-ponds-forge.html", () => {
         const html = fs.readFileSync(path.join(__dirname, "./swimming-ponds-forge.html"));
 
         const timetable = TimetableParser.timetableFromHTML(html, { trace: true });
 
         expect(timetable).to.have.lengthOf(7);
-
-        function newTimetableItem(venueId, startTime, endTime, description, room, alterations) {
-            return {
-                venueId,
-                startTime,
-                endTime,
-                description,
-                room,
-                alterations,
-            };
-        }
-
-        function expectTimetableItem(item, expected) {
-            const equals = (expected, actual) => expect(actual).to.equal(expected);
-            expect(item).to.be.an("object");
-            equals(expected.venueId, item.venueId);
-            equals(expected.startTime, item.startTime);
-            equals(expected.endTime, item.endTime);
-            equals(expected.description, item.description);
-            equals(expected.room, item.room);
-            if (expected.alterations) {
-                expect(item.alterations).to.have.lengthOf(expected.alterations.length);
-                item.alterations.forEach((alteration, i) => {
-                    expect(alteration).to.be.an("object");
-                    expect(alteration.message).to.equal(expected.alterations[i].message);
-                });
-            }
-        }
 
         function checkMonday() {
             const tt0 = timetable[0];
@@ -62,7 +34,7 @@ describe("ponds-forgev2/TimetableParser", () => {
             }]));
             // This next item is interesting as it's not formatted consistently in the HTML,
             // hence the parser gives a strange description and doesn't even try with the room.
-            expectTimetableItem(tt0.items[2], newTimetableItem("1", "15:15", "16:00", "Lane", "?", [{
+            expectTimetableItem(tt0.items[2], newTimetableItem("1", "15:15", "16:00", "Lane Swimming", "Competition Pool", [{
                 message: "(Tuesday 24th July: Lane swimming session only available 8:30pm - 10.00pm in the 25 metre Leisure Pool and 31st July: Lane swimming session is cancelled)",
             }]));
         }

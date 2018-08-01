@@ -30,12 +30,15 @@ class TimetableParser {
                 alterations: [],
             };
         }
+
         function handleTimetableLine(startTime, endTime, description) {
             item.startTime = normaliseTime(startTime);
             item.endTime = normaliseTime(endTime);
             item.description = description;
+            // Default to "Competition Pool" as we should be parsing the competition pool timetable.
+            item.room = "Competition Pool";
 
-            function addInfo(description, room, alteration) {
+            function update(description, room, alteration) {
                 item.description = description;
                 item.room = room;
                 if (alteration) {
@@ -56,49 +59,87 @@ class TimetableParser {
             // E.g. "Lane (25m) Swimming"
             match = item.description.match(/^(Lane \(\d\dm\) )(in Diving Pool)(.*)/);
             if (match) {
-                return addInfo(match[1].trim() + " Swimming", "Diving Pool", match[3].trim());
+                return update(match[1].trim() + " Swimming", "Diving Pool", match[3].trim());
             }
 
-            match = item.description.match(/^(Lane \(\d\dm\) Swimming)(.*)/);
+            // E.g. "Lane (25m) Swimming"
+            match = item.description.match(/^(Lane \(\d+m\) Swimming)(.*)/);
             if (match) {
-                return addInfo(match[1].trim(), "Competition Pool", match[2].trim());
+                return update(match[1].trim(), "Competition Pool", match[2].trim());
+            }
+
+            // E.g. "25 Metre Lane Swimming"
+            match = item.description.match(/^(\d+) Metre Lane Swimming(.*)/);
+            if (match) {
+                return update(`Lane (${match[1].trim()}m) Swimming`, "Competition Pool", match[2].trim());
             }
 
             match = item.description.match(/(.*?) ?-? ?Limited Availability(.*)/);
             if (match) {
-                return addInfo(match[1].trim(), "?", match[2].trim());
+                description = match[1].trim();
+                if (description === "Lane") {
+                    description = "Lane Swimming";
+                }
+                return update(description, "Competition Pool", match[2].trim());
+            }
+
+            match = item.description.match(/(Lane Swimming) \(Limited Lanes Available\)(.*)/);
+            if (match) {
+                return update(match[1].trim(), "Competition Pool", match[2].trim());
+            }
+
+            match = item.description.match(/(.*)(Alterations.*)/);
+            if (match) {
+                return update(match[1].trim(), "Competition Pool", match[2].trim());
             }
         }
+
         const items = [];
         let item;
         let expectingAlteration = false;
+
+        // Not session-specific
+        let generalAlterations = [];
+
         lines.forEach((line) => {
             // ensure all weird whitespace is converted to regular spaces.
-            line = fixStr(line);
+            // and then trim, as line could have started and/or ended with weird whitespace
+            // (but now converted to regular space).
+            line = fixStr(line).trim();
 
             if (!item) {
                 item = newItem();
             }
 
-            // Check for this full line and ignore if matches.
+            // Check for these and ignore if matches.
             // The real alterations will come on subsequent lines.
-            if (line.match(/Changes/)) {
+            if (line.match(/^(Changes|Alterations)/)) {
                 return expectingAlteration = true;
             }
-            if (expectingAlteration) {
-                item.alterations.push({
+
+            // Only add non-empty lines.
+            if (expectingAlteration && line) {
+                generalAlterations.push({
                     message: line,
                 });
                 return;
             }
+
             if (line.match(/^\d/)) {
                 expectingAlteration = false;
                 item = newItem();
                 items.push(item);
-                const match = line.match(/^([^\s]+) - ([^\s]+): (.*)/);
+                const match = line.match(/^([^\s]+)\s*-\s*([^\s]+): (.*)/);
                 match && handleTimetableLine(match[1], match[2], match[3]);
             }
         });
+
+        if (generalAlterations.length > 0) {
+            items.forEach((item) => {
+                item.alterations = item.alterations.concat(generalAlterations);
+            });
+        }
+
         return {
             day: dayIdx,
             items,

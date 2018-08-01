@@ -13,7 +13,8 @@
     "--comment--test:unit:watch": "Use chokidar for file watching, as it allows exclusions (ignore) unlike mocha's file watching",
     "test:unit:watch": "chokidar lib/**/*.js --ignore \"lib/itest\" --command \"npm run test:unit\"",
     "test:integration": "mocha lib/itest/**/*.itest.js",
-    "build": "rimraf dist && mkdirp dist && browserify index.js --outfile dist/index.js --standalone index --node"
+    "build": "rimraf dist && mkdirp dist && browserify index.js --outfile dist/index.js --standalone index --node",
+    "logs": "serverless logs -f laneSwimmingData"
   },
   "devDependencies": {
     "browserify": "^16.2.2",

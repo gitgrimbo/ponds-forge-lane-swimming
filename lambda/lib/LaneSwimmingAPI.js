@@ -15,7 +15,10 @@ class LaneSwimmingAPI {
         const trace = Trace.start(opts.trace);
 
         // https://stackoverflow.com/a/31424853/319878
-        const squashRejections = (promise) => promise.then(v => ({ value: v }), e => ({ error: e }));
+        const squashRejections = (promise) => promise.then((v) => ({ value: v }), (err) => {
+            console.log(err);
+            return { error: err };
+        });
 
         const apiCalls = [
             {
