@@ -1,4 +1,4 @@
-# S10API2
+# S10 v2
 
 The main page:
 
