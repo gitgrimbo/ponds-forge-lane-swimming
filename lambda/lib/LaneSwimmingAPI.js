@@ -6,7 +6,7 @@ const S10API = require("./s10v2/S10API");
 
 class LaneSwimmingAPI {
     constructor() {
-        this.pondsForgeAPI = new PondsForgeAPI();
+        this.pondsForgeAPI = PondsForgeAPI.withHolidayTimetable();
         this.s10API = new S10API();
     }
 

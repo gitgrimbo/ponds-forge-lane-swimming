@@ -41,6 +41,7 @@ describe("Main", () => {
                 expect(activity.venues).to.be.an("array");
 
                 expect(timetables).to.be.an("array");
+                expect(timetables).to.not.have.lengthOf(0);
 
                 const tt0 = timetables[0];
                 expect(tt0.days).to.be.an("array");

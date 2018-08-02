@@ -14,10 +14,8 @@ function sivXHRRequest(uri, opts) {
 }
 
 class PondsForgeAPI {
-    constructor(timetableURL) {
-        this.timetableURL = timetableURL || "https://www.siv.org.uk/page/swimming-ponds-forge";
-        // hack
-        this.timetableURL = "https://www.siv.org.uk/page/holiday-swimming-ponds-forge";
+    constructor(timetableSources) {
+        this.timetableSources = timetableSources || [PondsForgeAPI.REGULAR_TIMETABLE_SOURCE];
     }
 
     _stripAllButLaneSwimming(response) {
@@ -32,22 +30,43 @@ class PondsForgeAPI {
         });
     }
 
+    _timetables(sources, opts) {
+        const htmlPromises = sources.map((source) => sivXHRRequest(source.url, opts));
+        return htmlPromises.map((p) => p.then((html) => TimetableParser.timetableFromHTML(html)));
+    }
+
     timetables(opts) {
-        return sivXHRRequest(this.timetableURL, opts)
-            .then((html) => TimetableParser.timetableFromHTML(html))
-            .then((timetable) => {
+        return Promise.all(this._timetables(this.timetableSources, opts))
+            .then((timetables) => {
                 return {
                     activity: {
                         timetables: [],
                         venues: [],
                     },
-                    timetables: [{
-                        days: timetable,
-                    }],
+                    timetables: timetables.map((timetable, timetableIdx) => {
+                        return {
+                            name: this.timetableSources[timetableIdx].name,
+                            days: timetable,
+                        };
+                    }),
                 };
             })
             .then((response) => this._stripAllButLaneSwimming(response));
     }
+
+    static withHolidayTimetable() {
+        return new PondsForgeAPI([PondsForgeAPI.REGULAR_TIMETABLE_SOURCE, PondsForgeAPI.HOLIDAY_TIMETABLE_SOURCE]);
+    }
 }
+
+PondsForgeAPI.REGULAR_TIMETABLE_SOURCE = {
+    name: "Regular",
+    url: "https://www.siv.org.uk/page/swimming-ponds-forge",
+};
+
+PondsForgeAPI.HOLIDAY_TIMETABLE_SOURCE = {
+    name: "Holiday",
+    url: "https://www.siv.org.uk/page/holiday-swimming-ponds-forge",
+};
 
 module.exports = PondsForgeAPI;
