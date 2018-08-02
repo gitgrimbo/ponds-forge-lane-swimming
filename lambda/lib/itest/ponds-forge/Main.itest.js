@@ -25,6 +25,8 @@ describe("ponds-forge", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("pondsForgeLaneSwimming.json", responseStr);
 
+                console.log(responseStr);
+
                 const { activity, timetables } = response;
 
                 expect(activity).to.be.an("object");

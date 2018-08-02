@@ -25,6 +25,8 @@ describe("Main", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("laneSwimming.json", responseStr);
 
+                console.log(responseStr);
+
                 expect(response).to.be.an("array");
 
                 const r0 = response[0];

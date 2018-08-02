@@ -25,6 +25,8 @@ describe("s10", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("s10LaneSwimming.json", responseStr);
 
+                console.log(responseStr);
+
                 const { activity, timetables } = response;
 
                 expect(activity).to.be.an("object");
