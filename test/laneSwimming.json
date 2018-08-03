@@ -7,6 +7,7 @@
    },
    "timetables": [
     {
+     "name": "Regular",
      "days": [
       {
        "day": 1,
@@ -30,20 +31,6 @@
          "endTime": "22:00",
          "description": "Lane (25m) Swimming",
          "room": "Competition Pool"
-        },
-        {
-         "venueId": "1",
-         "alterations": [],
-         "startTime": "24:00",
-         "endTime": "14:00",
-         "description": "Age UK"
-        },
-        {
-         "venueId": "1",
-         "alterations": [],
-         "startTime": "20:30",
-         "endTime": "21:30",
-         "description": "Swimfit"
         }
        ]
       },
@@ -54,7 +41,7 @@
          "venueId": "1",
          "alterations": [
           {
-           "message": "(Tuesday 24th July: Lane swimming session only available 6:30am - 9:45am in the 25 metre Leisure Pool and Tuesday 31st July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool)"
+           "message": "(Tuesday 24th July: Lane swimming session only available 6:30am - 9:45am in the 25 metre Leisure Pool and Tuesday 31st July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool)"
           }
          ],
          "startTime": "06:30",
@@ -64,14 +51,15 @@
         },
         {
          "venueId": "1",
-         "alterations": [],
-         "startTime": "06:45",
-         "endTime": "08:15",
-         "description": "Swimfit "
-        },
-        {
-         "venueId": "1",
-         "alterations": []
+         "alterations": [
+          {
+           "message": "(Tuesday 24th July: Lane swimming session only available 8:30pm - 10.00pm in the 25 metre Leisure Pool and 31st July: Lane swimming session is cancelled)"
+          }
+         ],
+         "startTime": "15:15",
+         "endTime": "16:00",
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
         },
         {
          "venueId": "1",
@@ -103,7 +91,8 @@
          "alterations": [],
          "startTime": "15:15",
          "endTime": "16:00",
-         "description": "Lane - Limited Availability"
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
         },
         {
          "venueId": "1",
@@ -137,23 +126,10 @@
         {
          "venueId": "1",
          "alterations": [],
-         "startTime": "07:00",
-         "endTime": "08:00",
-         "description": "Swimfit"
-        },
-        {
-         "venueId": "1",
-         "alterations": [],
-         "startTime": "24:00",
-         "endTime": "13:30",
-         "description": "Swimfit"
-        },
-        {
-         "venueId": "1",
-         "alterations": [],
          "startTime": "15:15",
          "endTime": "16:00",
-         "description": "Lane - Limited Availability"
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
         },
         {
          "venueId": "1",
@@ -182,17 +158,15 @@
         },
         {
          "venueId": "1",
-         "alterations": [],
-         "startTime": "24:00",
-         "endTime": "13:00",
-         "description": "Age UK"
-        },
-        {
-         "venueId": "1",
-         "alterations": [],
+         "alterations": [
+          {
+           "message": "(Friday 27th July: Lane swimming session only available 7:30pm - 9:30pm in the 25 metre Leisure Pool)"
+          }
+         ],
          "startTime": "15:15",
          "endTime": "16:00",
-         "description": "Lane - Limited Availability (Friday 27th July: Lane swimming session only available 7:30pm - 9:30pm in the 25 metre Leisure Pool)"
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
         },
         {
          "venueId": "1",
@@ -245,9 +219,252 @@
        ]
       }
      ]
+    },
+    {
+     "name": "Holiday",
+     "days": [
+      {
+       "day": 1,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Monday 30th July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool. Swimfit Cancelled"
+          },
+          {
+           "message": "Monday 27th August: Lane swimming available 8:00am - 8:00pm in the 25 metre Competition Pool"
+          }
+         ],
+         "startTime": "06:30",
+         "endTime": "22:00",
+         "description": "Lane (25m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 2,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Tuesday 31st July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "06:30",
+         "endTime": "15:15",
+         "description": "Lane (25m) Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Tuesday 31st July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "15:15",
+         "endTime": "16:00",
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Tuesday 31st July: Lane swimming sessions only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "16:00",
+         "endTime": "22:00",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 3,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Wednesday 1st August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "06:30",
+         "endTime": "15:15",
+         "description": "Lane (25m) Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Wednesday 1st August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "15:15",
+         "endTime": "16:00",
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Wednesday 1st August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool"
+          }
+         ],
+         "startTime": "16:00",
+         "endTime": "22:00",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 4,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Thursday 2nd August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "06:30",
+         "endTime": "15:15",
+         "description": "Lane (25m) Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Thursday 2nd August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "15:15",
+         "endTime": "16:00",
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Thursday 2nd August: Lane swimming only available 6:30am - 9:45am in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "16:00",
+         "endTime": "22:00",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 5,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Friday 27th July: Lane swimming session only available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool"
+          },
+          {
+           "message": "Friday 3rd August: Lane swimming available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "06:30",
+         "endTime": "15:15",
+         "description": "Lane (25m) Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Friday 27th July: Lane swimming session only available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool"
+          },
+          {
+           "message": "Friday 3rd August: Lane swimming available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "15:15",
+         "endTime": "16:00",
+         "description": "Lane Swimming",
+         "room": "Competition Pool"
+        },
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Friday 27th July: Lane swimming session only available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool"
+          },
+          {
+           "message": "Friday 3rd August: Lane swimming available 6:30am - 9:45am in the 25 metre Leisure Pool and 7:30pm - 9:30pm in the 25 metre Leisure Pool. Swimfit cancelled."
+          }
+         ],
+         "startTime": "16:00",
+         "endTime": "21:30",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 6,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Saturday 28th July: Lane swimming unavailable all day"
+          },
+          {
+           "message": "Saturday 4th August: Lane swimming unavailable all day"
+          },
+          {
+           "message": "Saturday 11th August: Lane swimming available 8:00am - 8:00pm in the 50 metre Competition Pool"
+          },
+          {
+           "message": "Saturday 18th August: Lane swimming available 8:00am - 8:00pm in the 25 metre Diving Pool"
+          },
+          {
+           "message": "Saturday 25th August: Lane swimming available 8:00am - 7:00pm in the 25 metre Competition Pool and 7:00pm - 8:00pm in the 50 metre Competition Pool"
+          }
+         ],
+         "startTime": "08:00",
+         "endTime": "20:00",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      },
+      {
+       "day": 0,
+       "items": [
+        {
+         "venueId": "1",
+         "alterations": [
+          {
+           "message": "Sunday 29th July: Lane swimming unavailable all day"
+          }
+         ],
+         "startTime": "08:00",
+         "endTime": "20:00",
+         "description": "Lane (50m) Swimming",
+         "room": "Competition Pool"
+        }
+       ]
+      }
+     ]
     }
-   ],
-   "vendor": "Ponds Forge"
+   ]
   },
   "vendor": "Ponds Forge"
  },
@@ -292,7 +509,7 @@
          "description": "Lane Swimming",
          "title": "Lane Swimming",
          "location": "Lane 3",
-         "startTime": "15:00",
+         "startTime": "13:00",
          "endTime": "18:00"
         },
         {
@@ -325,22 +542,7 @@
       },
       {
        "day": 6,
-       "items": [
-        {
-         "description": "Lane Swimming 25m Pod",
-         "title": "Lane Swimming 25m Pod",
-         "location": "Lane 4",
-         "startTime": "09:00",
-         "endTime": "12:30"
-        },
-        {
-         "description": "Lane Swimming",
-         "title": "Lane Swimming",
-         "location": "Lane 1, Lane 2, Lane 3",
-         "startTime": "12:30",
-         "endTime": "16:00"
-        }
-       ]
+       "items": []
       },
       {
        "day": 0,
