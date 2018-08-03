@@ -1,52 +1,22 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
+import Timetable from "./Timetable";
 import gitInfo from "./static/gitInfo.json";
-
-const DAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
 const url = new URL(window.location.href);
 console.log("Use DEBUG query parameter to use local data (not live data).");
 const DEBUG = url.searchParams.get("DEBUG") !== "false";
 const localDataSource = url.searchParams.get("localDataSource");
 
-class Item extends Component {
-  render() {
-    const { item } = this.props;
-    const alterations = [];
-    if (item.alterations && item.alterations.length > 0) {
-      item.alterations.forEach((alteration, i) => {
-        alterations.push(<br key={"br" + i} />);
-        const date = alteration.date || "No date";
-        alterations.push(<span key={"alteration-" + i} style={{ color: "red" }}>{date + ", " + alteration.message}</span>);
-      });
-    }
-    return (
-      <div >
-        <div>{item.description}</div>
-        <div>{item.room}</div>
-        <div>{alterations}</div>
-      </div>
-    );
-  }
-}
 
-function dayRows(day) {
-  const dayName = isNaN(day.day) ? day.day : DAYS[day.day];
-  const item0 = day.items[0];
-  if (!item0) {
-    return null;
-  }
-  const dayNameCell = (i) => (i === 0) ? <td rowSpan={day.items.length}>{dayName}</td> : null;
-  return day.items.map((item, i) => (
-    <tr key={i}>
-      {dayNameCell(i)}
-      <td>{item.startTime}</td>
-      <td>{item.endTime}</td>
-      <td><Item item={item} key={i} /></td>
-    </tr>
-  ));
-}
+const GitInfo = ({ gitInfo }) => (
+  <React.Fragment>
+    <h2>Version Info</h2>
+    <span>Hash: {gitInfo.hash}, Date: {gitInfo.date}</span>
+  </React.Fragment>
+);
+
 
 class App extends Component {
   getLocalDataSourceURL(localDataSourceName) {
@@ -78,11 +48,7 @@ class App extends Component {
     return (
       <div key={key}>
         <h1>{timetable.name || "Regular Timetable"} ({vendor || "Unknown vendor"})</h1>
-        <table className="tableTimetable" cellSpacing={0} cellPadding={0}>
-          <tbody>
-            {timetable.days.map(dayRows)}
-          </tbody>
-        </table>
+        <Timetable timetable={timetable} />
       </div>
     );
   }
@@ -113,21 +79,12 @@ class App extends Component {
     });
   }
 
-  renderGitInfo(gitInfo) {
-    return (
-      <React.Fragment>
-        <h2>Version Info</h2>
-        <span>Hash: {gitInfo.hash}, Date: {gitInfo.date}</span>
-      </React.Fragment>
-    )
-  }
-
   renderApp(data) {
     return (
       <div>
         {data && this.renderTimetables(data)}
         <hr />
-        {this.renderGitInfo(gitInfo)}
+        <GitInfo gitInfo={gitInfo} />
       </div>
     );
   }
