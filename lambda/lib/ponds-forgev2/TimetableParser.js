@@ -133,7 +133,7 @@ class TimetableParser {
 
             // Check for these and ignore if matches.
             // The real alterations will come on subsequent lines.
-            if (line.match(/^(Changes|Alterations)/)) {
+            if (line.match(/^(Changes|Alterations|Limited Availability)/)) {
                 return expectingAlteration = true;
             }
 
@@ -151,13 +151,27 @@ class TimetableParser {
                 items.push(item);
                 const match = line.match(/^([^\s]+)\s*-\s*([^\s]+): (.*)/);
                 match && handleTimetableLine(match[1], match[2], match[3]);
+                return;
             }
         });
 
-        if (generalAlterations.length > 0) {
-            items.forEach((item) => {
-                item.alterations = item.alterations.concat(generalAlterations);
+        if (items.length > 0) {
+            // expected
+            if (generalAlterations.length > 0) {
+                items.forEach((item) => {
+                    item.alterations = item.alterations.concat(generalAlterations);
+                });
+            }
+        } else {
+            // Special case. What we should expect as item data is actually embedded in one big general alteration.
+            const item = Object.assign(newItem(), {
+                description: "Lane Swimming",
+                startTime: "?",
+                endTime: "?",
+                room: "Competition Pool",
+                alterations: generalAlterations.slice(),
             });
+            items.push(item);
         }
 
         return {

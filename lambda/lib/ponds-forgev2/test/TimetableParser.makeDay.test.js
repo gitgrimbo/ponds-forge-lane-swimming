@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const { newTimetableItem, expectTimetableItem, newAlterations } = require("./utils");
+const { newTimetableItem, expectTimetableItem } = require("./utils");
 const TimetableParser = require("../TimetableParser");
 
 describe("ponds-forgev2/TimetableParser.makeDay", () => {

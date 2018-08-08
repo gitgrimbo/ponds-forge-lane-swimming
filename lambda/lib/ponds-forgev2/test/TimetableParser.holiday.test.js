@@ -5,7 +5,7 @@ const path = require("path");
 const { newTimetableItem, expectTimetableItem, newAlterations } = require("./utils");
 const TimetableParser = require("../TimetableParser");
 
-describe("ponds-forgev2/TimetableParser", () => {
+describe("ponds-forgev2/TimetableParser/holiday", () => {
     const html = fs.readFileSync(path.join(__dirname, "./holiday-swimming-ponds-forge.html"));
 
     const timetable = TimetableParser.timetableFromHTML(html, { trace: true });
@@ -43,7 +43,6 @@ describe("ponds-forgev2/TimetableParser", () => {
         ])));
     });
 
-
     it("saturday", () => {
         const tt = timetable[5];
         expect(tt).to.be.an("object");
@@ -57,7 +56,6 @@ describe("ponds-forgev2/TimetableParser", () => {
             "Saturday 25th August: Lane swimming available 8:00am - 7:00pm in the 25 metre Competition Pool and 7:00pm - 8:00pm in the 50 metre Competition Pool",
         ])));
     });
-
 
     it("sunday", () => {
         const tt = timetable[6];

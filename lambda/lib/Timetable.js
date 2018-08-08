@@ -13,7 +13,7 @@ class Timetable {
         return Object.assign({}, timetable, {
             days: timetable.days.map(day => {
                 return Object.assign({}, day, {
-                    items: day.items.filter(item => item.description.match(reDescription)),
+                    items: day.items.filter(item => item.description && item.description.match(reDescription)),
                 });
             }),
         });

@@ -32,7 +32,10 @@ class PondsForgeAPI {
 
     _timetables(sources, opts) {
         const htmlPromises = sources.map((source) => sivXHRRequest(source.url, opts));
-        return htmlPromises.map((p) => p.then((html) => TimetableParser.timetableFromHTML(html)));
+        return htmlPromises.map((p) => p.then((html) => {
+            //console.log(html);
+            return TimetableParser.timetableFromHTML(html);
+        }));
     }
 
     timetables(opts) {
