@@ -31,6 +31,24 @@ class TimetableParser {
             };
         }
 
+        function fixAlteration(s) {
+            if (!s) {
+                return s;
+            }
+
+            // Sometimes the alteration passed here has spaces and full-stops.
+            // E.g., from the following string
+            // "6:30am - 3:15pm: 25 Metre Lane Swimming . "
+            // we will be passed " . ", which isn't a genuine alteration.
+            let len;
+            do {
+                len = s.length;
+                s = s.trim().replace(/^\./, "");
+            } while (len !== s.length);
+
+            return s;
+        }
+
         function handleTimetableLine(startTime, endTime, description) {
             item.startTime = normaliseTime(startTime);
             item.endTime = normaliseTime(endTime);
@@ -39,6 +57,8 @@ class TimetableParser {
             item.room = "Competition Pool";
 
             function update(description, room, alteration) {
+                alteration = fixAlteration(alteration);
+
                 item.description = description;
                 item.room = room;
                 if (alteration) {
