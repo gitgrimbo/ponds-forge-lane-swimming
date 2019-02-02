@@ -4,15 +4,23 @@
   "homepage": "http://gitgrimbo.github.io/ponds-forge-lane-swimming",
   "dependencies": {
     "axios": "^0.18.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies-COMMENT": {
+    "terser": [
+      "Using terser >=3.15.0 fails",
+      "Failed to minify the bundle. Error: static/js/main.xxxxxx.chunk.js from Terser",
+      "https://github.com/facebook/create-react-app/issues/6336"
+    ]
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^2.0.1",
     "git-rev-sync": "^1.12.0",
     "mkdirp": "^0.5.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "2.1.3",
+    "terser": "3.14.1"
   },
   "scripts": {
     "start": "npm run git-info && cross-env BROWSER=none react-scripts start",
@@ -22,5 +30,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "git-info": "mkdirp src/static && node ./src/bin/write-git-commit.js . ./src/static/gitInfo.json"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
