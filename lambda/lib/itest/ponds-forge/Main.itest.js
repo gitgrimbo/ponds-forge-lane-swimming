@@ -25,7 +25,9 @@ describe("ponds-forge", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("pondsForgeLaneSwimming.json", responseStr);
 
+                console.log("---------- pondsForgeAPI.timetables response START ----------");
                 console.log(responseStr);
+                console.log("---------- pondsForgeAPI.timetables response END   ----------");
 
                 const { activity, timetables } = response;
 

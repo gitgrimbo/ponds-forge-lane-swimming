@@ -25,7 +25,9 @@ describe("s10", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("s10LaneSwimming.json", responseStr);
 
+                console.log("---------- s10API.timetables response START ----------");
                 console.log(responseStr);
+                console.log("---------- s10API.timetables response END   ----------");
 
                 const { activity, timetables } = response;
 

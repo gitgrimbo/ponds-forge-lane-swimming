@@ -25,7 +25,9 @@ describe("Main", () => {
                 const responseStr = JSON.stringify(response, null, 1);
                 saveFile("laneSwimming.json", responseStr);
 
+                console.log("---------- laneSwimmingAPI.timetables response START ----------");
                 console.log(responseStr);
+                console.log("---------- laneSwimmingAPI.timetables response END   ----------");
 
                 expect(response).to.be.an("array");
 
