@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ponds-forge-lane-swimming/precache-manifest.34192b6132d7bf486ed6382b3ebb8b19.js"
+  "/ponds-forge-lane-swimming/precache-manifest.deac0317622f23bb200e90ee2dcf924a.js"
 );
 
 workbox.clientsClaim();
