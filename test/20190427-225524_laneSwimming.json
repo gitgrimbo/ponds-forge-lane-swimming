@@ -1,0 +1,534 @@
+[
+ {
+  "timetables": [
+   {
+    "name": "Regular",
+    "timetable": [
+     {
+      "day": 1,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "(6th May: Lane swimming cancelled and 27th May: Session cancelled)"
+         }
+        ],
+        "startTime": "06:30",
+        "endTime": "08:00",
+        "description": "Lane (25m) Swimming",
+        "room": "Diving Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "(6th May: Lane swimming cancelled and 27th May: Session will take place 8:00am - 10:00pm in the 25 metre Leisure Pool)"
+         }
+        ],
+        "startTime": "08:00",
+        "endTime": "22:00",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "12:00",
+        "endTime": "14:00",
+        "description": "Age UK (6th and 27th May: Age UK cancelled)",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "20:30",
+        "endTime": "21:30",
+        "description": "Swimfit (6th May and 27th May: Swimfit cancelled)",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 2,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "06:30",
+        "endTime": "15:15",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "06:45",
+        "endTime": "08:15",
+        "description": "Swimfit  (Diving Pit)",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "15:15",
+        "endTime": "16:00",
+        "description": "Lane Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "16:00",
+        "endTime": "22:00",
+        "description": "Lane (50m) Swimming",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 3,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "06:30",
+        "endTime": "15:15",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "15:15",
+        "endTime": "16:00",
+        "description": "Lane Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "16:00",
+        "endTime": "22:00",
+        "description": "Lane (50m) Swimming",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 4,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "06:30",
+        "endTime": "15:15",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "description": "Swimfit",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "12:00",
+        "endTime": "13:30",
+        "description": "Swimfit",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "15:15",
+        "endTime": "16:00",
+        "description": "Lane Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "(9th May: Lane swimming will be 25 metres)"
+         }
+        ],
+        "startTime": "16:00",
+        "endTime": "22:00",
+        "description": "Lane (50m) Swimming",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 5,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "06:30",
+        "endTime": "15:15",
+        "description": "Lane (25m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "description": "Age UK",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "15:15",
+        "endTime": "16:00",
+        "description": "Lane Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "(10th May: Lane swimming will be 25 metres between 4:00pm - 5:00pm and 50 metres between 6:30pm - 9:30pm)"
+         }
+        ],
+        "startTime": "16:00",
+        "endTime": "21:30",
+        "description": "Lane (50m) Swimming",
+        "room": "Competition Pool"
+       },
+       {
+        "venueId": "1",
+        "alterations": [],
+        "startTime": "19:30",
+        "endTime": "21:30",
+        "description": "Swimfit",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 6,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "27th April: Lane swimming cancelled"
+         },
+         {
+          "message": "4th May: Lane swimming available 6:30pm - 8:00pm in the 25 metre Diving Pit"
+         },
+         {
+          "message": "11th May: Lane swimming available 6:30pm - 8:00pm in the 25 metre Diving Pit"
+         },
+         {
+          "message": "18th May: Lane swimming cancelled"
+         },
+         {
+          "message": "25th May: Lane swimming available 5:30pm - 8:00pm in the 25 metre Diving Pit"
+         }
+        ],
+        "description": "Lane Swimming",
+        "startTime": "?",
+        "endTime": "?",
+        "room": "Competition Pool"
+       }
+      ]
+     },
+     {
+      "day": 0,
+      "items": [
+       {
+        "venueId": "1",
+        "alterations": [
+         {
+          "message": "28th April: Lane swimming available 8:00am - 8:00pm in the 50 metre Competition Pool"
+         },
+         {
+          "message": "5th May: Lane swimming cancelled"
+         },
+         {
+          "message": "12th May: Lane swimming available 7:00pm - 8:00pm in th 50 metre Competition Pool)"
+         },
+         {
+          "message": "19th May: Lane swimming cancelled"
+         },
+         {
+          "message": "26th May: Lane swimming cancelled"
+         }
+        ],
+        "description": "Lane Swimming",
+        "startTime": "?",
+        "endTime": "?",
+        "room": "Competition Pool"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Holiday",
+    "error": {
+     "uri": "https://www.siv.org.uk/page/holiday-swimming-ponds-forge",
+     "message": "Timetable not found"
+    }
+   }
+  ],
+  "vendor": "Ponds Forge"
+ },
+ {
+  "timetables": [
+   {
+    "name": "Regular",
+    "timetable": [
+     {
+      "day": 6,
+      "items": [
+       {
+        "description": "Lane Swimming 25m Pod",
+        "title": "Lane Swimming 25m Pod",
+        "location": "Lane 4",
+        "startTime": "09:00",
+        "endTime": "12:30"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "12:30",
+        "endTime": "16:00"
+       }
+      ]
+     },
+     {
+      "day": 0,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "09:00",
+        "endTime": "17:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "09:00",
+        "endTime": "15:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "16:00",
+        "endTime": "17:00"
+       }
+      ]
+     },
+     {
+      "day": 1,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "07:00",
+        "endTime": "19:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "07:00",
+        "endTime": "09:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "11:00",
+        "endTime": "13:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "14:20",
+        "endTime": "17:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "17:00",
+        "endTime": "19:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2, Lane 3, Lane 4",
+        "startTime": "20:00",
+        "endTime": "21:00"
+       }
+      ]
+     },
+     {
+      "day": 2,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "07:00",
+        "endTime": "20:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "07:00",
+        "endTime": "09:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "09:00",
+        "endTime": "09:40"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "11:00",
+        "endTime": "13:20"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "14:50",
+        "endTime": "20:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 4",
+        "startTime": "17:00",
+        "endTime": "20:00"
+       }
+      ]
+     },
+     {
+      "day": 3,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "07:00",
+        "endTime": "21:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "07:00",
+        "endTime": "09:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "10:00",
+        "endTime": "16:00"
+       }
+      ]
+     },
+     {
+      "day": 4,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "07:00",
+        "endTime": "21:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3, Lane 4",
+        "startTime": "08:00",
+        "endTime": "09:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "10:00",
+        "endTime": "13:30"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "14:50",
+        "endTime": "21:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 4",
+        "startTime": "17:00",
+        "endTime": "21:00"
+       }
+      ]
+     },
+     {
+      "day": 5,
+      "items": [
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 1, Lane 2",
+        "startTime": "07:00",
+        "endTime": "20:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "07:00",
+        "endTime": "09:00"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "09:00",
+        "endTime": "12:30"
+       },
+       {
+        "description": "Lane Swimming",
+        "title": "Lane Swimming",
+        "location": "Lane 3",
+        "startTime": "13:30",
+        "endTime": "16:00"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "vendor": "S10"
+ }
+]
