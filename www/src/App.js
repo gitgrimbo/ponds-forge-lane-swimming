@@ -24,6 +24,7 @@ class App extends Component {
       case "ok": return "./test/laneSwimming.json";
       case "singleDataSourceError": return "./test/laneSwimming.s10error.json";
       case "error": return "./test/laneSwimming.error.json";
+      case "20190427": return "./test/20190427-225524_laneSwimming.json";
       default: return null;
     }
   }
@@ -38,26 +39,30 @@ class App extends Component {
     return "https://c1dz9rg5cd.execute-api.eu-west-2.amazonaws.com/prod/laneSwimmingData";
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     const url = this.getDataSourceURL(localDataSource);
-    axios.get(url + "?" + new Date().getTime())
-      .then(response => this.setState({ data: response.data }));
+    const response = await axios.get(url + "?" + new Date().getTime());
+    this.setState({ data: response.data });
   }
 
-  renderTimetable(timetable, vendor, key) {
+  renderTimetable(name, timetable, vendor, key) {
     return (
       <div key={key}>
-        <h1>{timetable.name || "Regular Timetable"} ({vendor || "Unknown vendor"})</h1>
+        <h1>{name || "Regular Timetable"} ({vendor || "Unknown vendor"})</h1>
         <Timetable timetable={timetable} />
       </div>
     );
   }
 
   renderError(error, vendor, key) {
-    const errorInfo = error.statusCode ? [
-      error.statusCode,
-      error.options && error.options.uri,
-    ] : error;
+    const errorInfo = error.statusCode
+      ? [
+        error.statusCode,
+        error.options && error.options.uri,
+      ]
+      : (typeof error === "string")
+        ? error
+        : JSON.stringify(error);
 
     return (
       <div key={key}>
@@ -68,15 +73,16 @@ class App extends Component {
   }
 
   renderTimetables(data) {
-    return data.map((vendorData, vendorIdx) => {
-      const { error, value, vendor } = vendorData;
-      if (!error) {
-        const { timetables } = value;
-        const renderTimetable = (timetable, timetableIdx) => this.renderTimetable(timetable, vendor, timetableIdx);
-        return timetables.map(renderTimetable);
-      }
-      return this.renderError(error, vendor, vendorIdx);
-    });
+    return data.reduce((result, { vendor, timetables }) => {
+      timetables.forEach(({ name, timetable, error }) => {
+        result.push(
+          error
+            ? this.renderError(error, vendor, result.length)
+            : this.renderTimetable(name, timetable, vendor, result.length)
+        );
+      });
+      return result;
+    }, []);
   }
 
   renderApp(data) {

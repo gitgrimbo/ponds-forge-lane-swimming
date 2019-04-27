@@ -1,7 +1,7 @@
+const settle = require("p-settle");
 const TimetableParser = require("./TimetableParser");
 
 const Timetable = require("../Timetable");
-const Trace = require("../Trace");
 const xhr = require("../xhr");
 
 function sivXHRRequest(uri, opts) {
@@ -10,7 +10,11 @@ function sivXHRRequest(uri, opts) {
         gzip: true,
     });
 
-    return xhr(opts);
+    return xhr(opts)
+        .catch((error) => {
+            error.uri = uri;
+            throw error;
+        });
 }
 
 class PondsForgeAPI {
@@ -18,47 +22,61 @@ class PondsForgeAPI {
         this.timetableSources = timetableSources || [PondsForgeAPI.REGULAR_TIMETABLE_SOURCE];
     }
 
-    _stripAllButLaneSwimming(response) {
+    _stripAllButLaneSwimming(timetables) {
         const VENUE_ID_PONDS_FORGE = "1";
-        return Object.assign({}, response, {
-            timetables: response.timetables.map(timetable => {
-                timetable = Timetable.filterByVenueId(timetable, VENUE_ID_PONDS_FORGE);
-                // We use $ for end of regex to filter out other Lane Swimming items such as "Lane Swimming For Beginners"
-                timetable = Timetable.filterByDescription(timetable, /Lane.*(Swimming)?$/);
-                return timetable;
-            }),
+
+        return timetables.map((timetable) => {
+            timetable = Timetable.filterByVenueId(timetable, VENUE_ID_PONDS_FORGE);
+            // We use $ for end of regex to filter out other Lane Swimming items such as "Lane Swimming For Beginners"
+            timetable = Timetable.filterByDescription(timetable, /Lane.*(Swimming)?$/);
+            return timetable;
         });
     }
 
-    _timetables(sources, opts) {
-        const htmlPromises = sources.map((source) => sivXHRRequest(source.url, opts));
-        return htmlPromises.map((p) => p.then((html) => {
-            //console.log(html);
-            return TimetableParser.timetableFromHTML(html);
-        }));
+    _timetablePromises(sources, opts) {
+        return sources
+            .map((source) => sivXHRRequest(source.url, opts))
+            .map(async (htmlPromise) => TimetableParser.timetableFromHTML(await htmlPromise));
     }
 
-    timetables(opts) {
-        return Promise.all(this._timetables(this.timetableSources, opts))
-            .then((timetables) => {
+    async timetables(opts) {
+        const responses = await settle(this._timetablePromises(this.timetableSources, opts));
+
+        return responses.map((response, i) => {
+            let {
+                isFulfilled,
+                value: timetable,
+                reason: error,
+            } = response;
+
+            const name = this.timetableSources[i].name;
+
+            if (isFulfilled) {
                 return {
-                    activity: {
-                        timetables: [],
-                        venues: [],
-                    },
-                    timetables: timetables.map((timetable, timetableIdx) => {
-                        return {
-                            name: this.timetableSources[timetableIdx].name,
-                            days: timetable,
-                        };
-                    }),
+                    name,
+                    timetable,
                 };
-            })
-            .then((response) => this._stripAllButLaneSwimming(response));
+            }
+
+            if (error.statusCode === 404) {
+                error = {
+                    uri: error.uri,
+                    message: "Timetable not found",
+                };
+            }
+
+            return {
+                name,
+                error,
+            };
+        });
     }
 
     static withHolidayTimetable() {
-        return new PondsForgeAPI([PondsForgeAPI.REGULAR_TIMETABLE_SOURCE, PondsForgeAPI.HOLIDAY_TIMETABLE_SOURCE]);
+        return new PondsForgeAPI([
+            PondsForgeAPI.REGULAR_TIMETABLE_SOURCE,
+            PondsForgeAPI.HOLIDAY_TIMETABLE_SOURCE,
+        ]);
     }
 }
 

@@ -10,15 +10,9 @@ class LaneSwimmingAPI {
         this.s10API = new S10API();
     }
 
-    timetables(opts) {
+    async timetables(opts) {
         opts = opts || {};
         const trace = Trace.start(opts.trace);
-
-        // https://stackoverflow.com/a/31424853/319878
-        const squashRejections = (promise) => promise.then((v) => ({ value: v }), (err) => {
-            console.log(err);
-            return { error: err };
-        });
 
         const apiCalls = [
             {
@@ -31,15 +25,26 @@ class LaneSwimmingAPI {
             }
         ];
 
-        // Squashes the rejections of the apiCall's promise, and adds a vendor field.
-        const addVendor = (apiCall) => squashRejections(apiCall.promise)
-            .then(response => {
-                response.vendor = apiCall.vendor;
-                return response;
-            });
+        const responses = await Promise.all(
+            apiCalls.map(async ({ vendor, promise }) => {
+                try {
+                    const timetables = await promise;
+                    return {
+                        timetables,
+                        vendor,
+                    };
+                } catch (error) {
+                    console.error(vendor);
+                    console.error(error);
+                    return {
+                        vendor,
+                        error,
+                    };
+                }
+            })
+        );
 
-        return Promise.all(apiCalls.map(addVendor))
-            .then(responses => trace.stop("LaneSwimmingAPI.timetables", responses));
+        return trace.stop("LaneSwimmingAPI.timetables", responses);
     }
 }
 

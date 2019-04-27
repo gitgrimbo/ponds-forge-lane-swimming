@@ -12,7 +12,7 @@ describe("s10", () => {
     mkdirp.sync("temp");
 
     // Need to use full function, not lambda, for this.timeout()
-    it("itest", function(done) {
+    it("itest", async function() {
         this.timeout(10 * 1000);
 
         const opts = {
@@ -20,28 +20,23 @@ describe("s10", () => {
             saveResources: true,
         };
 
-        s10API.timetables(opts)
-            .then(response => {
-                const responseStr = JSON.stringify(response, null, 1);
-                saveFile("s10LaneSwimming.json", responseStr);
+        const logResponse = false;
 
-                console.log("---------- s10API.timetables response START ----------");
-                console.log(responseStr);
-                console.log("---------- s10API.timetables response END   ----------");
+        const response = await s10API.timetables(opts)
+        const responseStr = JSON.stringify(response, null, 1);
+        saveFile("s10LaneSwimming.json", responseStr);
 
-                const { activity, timetables } = response;
+        if (logResponse) {
+            console.log("---------- s10API.timetables response START ----------");
+            console.log(responseStr);
+            console.log("---------- s10API.timetables response END   ----------");
+        }
 
-                expect(activity).to.be.an("object");
-                expect(activity.timetables).to.be.an("array");
-                expect(activity.venues).to.be.an("array");
+        expect(response).to.be.an("array");
+        expect(response).to.not.have.lengthOf(0);
 
-                expect(timetables).to.be.an("array");
-                expect(timetables).to.not.have.lengthOf(0);
-
-                const tt0 = timetables[0];
-                expect(tt0.days).to.be.an("array");
-                done();
-            })
-            .catch(done);
+        const { name, timetable } = response[0];
+        expect(name).to.equal("Regular");
+        expect(timetable).to.be.an("array");
     });
 });

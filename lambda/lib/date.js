@@ -1,5 +1,7 @@
 function formatForFilename(date) {
-    return date.toISOString().replace(/\..*/gi, "").replace(/[:-]/gi, "").replace("T", "-");
+    const offset = date.getTimezoneOffset() * 60 * 1000;
+    const isoString = new Date(date.getTime() - offset).toISOString();
+    return isoString.replace(/\..*/gi, "").replace(/[:-]/gi, "").replace("T", "-");
 }
 
 module.exports = {

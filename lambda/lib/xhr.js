@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const request = require("request");
 const rp = require("request-promise");
 
 const date = require("./date");
@@ -11,15 +10,13 @@ function saveURL(folder, url, content) {
     fs.writeFileSync(filename, content);
 }
 
-function xhr(opts) {
+async function xhr(opts) {
     const { uri } = opts;
-    return rp(opts)
-        .then(response => {
-            if (opts.saveResources) {
-                saveURL("temp", uri, response);
-            }
-            return response;
-        });
+    const response = await rp(opts);
+    if (opts.saveResources) {
+        saveURL("temp", uri, response);
+    }
+    return response;
 }
 
 module.exports = xhr;

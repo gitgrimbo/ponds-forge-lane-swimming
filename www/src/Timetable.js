@@ -44,7 +44,7 @@ function dayRows(day) {
 const Timetable = ({ timetable }) => (
   <table className="tableTimetable" cellSpacing={0} cellPadding={0}>
     <tbody>
-      {timetable.days.map(dayRows)}
+      {timetable.map(dayRows)}
     </tbody>
   </table>
 );

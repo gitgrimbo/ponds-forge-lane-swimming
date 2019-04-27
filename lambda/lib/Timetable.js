@@ -1,22 +1,21 @@
+function filterItems(timetable, filter) {
+    return timetable.map((day) => {
+        return {
+            ...day,
+            items: day.items.filter(filter),
+        };
+    });
+}
+
 class Timetable {
     static filterByVenueId(timetable, venueId) {
-        return Object.assign({}, timetable, {
-            days: timetable.days.map(day => {
-                return Object.assign({}, day, {
-                    items: day.items.filter(item => item.venueId === venueId),
-                });
-            }),
-        });
+        const filter = (item) => item.venueId === venueId;
+        return filterItems(timetable, filter);
     }
 
     static filterByDescription(timetable, reDescription) {
-        return Object.assign({}, timetable, {
-            days: timetable.days.map(day => {
-                return Object.assign({}, day, {
-                    items: day.items.filter(item => item.description && item.description.match(reDescription)),
-                });
-            }),
-        });
+        const filter = (item) => item.description && item.description.match(reDescription);
+        return filterItems(timetable, filter);
     }
 }
 

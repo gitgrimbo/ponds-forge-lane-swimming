@@ -11,8 +11,13 @@ const pondsForgeAPI = new PondsForgeAPI();
 describe("ponds-forge", () => {
     mkdirp.sync("temp");
 
+    function expectTimetable(timetable, name) {
+        expect(timetable.name).to.equal(name);
+        expect(timetable.timetable).to.be.an("array");
+    }
+
     // Need to use full function, not lambda, for this.timeout()
-    it("pondsForgeLaneSwimming", function(done) {
+    it("pondsForgeLaneSwimming", async function() {
         this.timeout(10 * 1000);
 
         const opts = {
@@ -20,28 +25,22 @@ describe("ponds-forge", () => {
             saveResources: true,
         };
 
-        pondsForgeAPI.timetables(opts)
-            .then(response => {
-                const responseStr = JSON.stringify(response, null, 1);
-                saveFile("pondsForgeLaneSwimming.json", responseStr);
+        const logResponse = false;
 
-                console.log("---------- pondsForgeAPI.timetables response START ----------");
-                console.log(responseStr);
-                console.log("---------- pondsForgeAPI.timetables response END   ----------");
+        const response = await pondsForgeAPI.timetables(opts);
+        const responseStr = JSON.stringify(response, null, 1);
+        saveFile("pondsForgeLaneSwimming.json", responseStr);
 
-                const { activity, timetables } = response;
+        if (logResponse) {
+            console.log("---------- pondsForgeAPI.timetables response START ----------");
+            console.log(responseStr);
+            console.log("---------- pondsForgeAPI.timetables response END   ----------");
+        }
 
-                expect(activity).to.be.an("object");
-                expect(activity.timetables).to.be.an("array");
-                expect(activity.venues).to.be.an("array");
+        expect(response).to.be.an("array");
+        // length 1 because this Ponds Forge integration test doesn't check for holiday timetable
+        expect(response).to.have.lengthOf(1);
 
-                expect(timetables).to.be.an("array");
-                expect(timetables).to.not.have.lengthOf(0);
-
-                const tt0 = timetables[0];
-                expect(tt0.days).to.be.an("array");
-                done();
-            })
-            .catch(done);
+        expectTimetable(response[0], "Regular");
     });
 });

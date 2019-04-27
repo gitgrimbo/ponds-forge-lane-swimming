@@ -31,48 +31,29 @@ function fetchS10Timetable(opts) {
 }
 
 class S10API {
-    _timetables(opts) {
-        return fetchS10Timetable(opts)
-            .then(response => {
-                const timetable = TimetableParser.timetableFromJSON(response);
-                const timetables = [
-                    {
-                        id: "1",
-                        name: "Timetable",
-                        days: timetable,
-                    }
-                ];
-                const activity = {
-                    timetables: [
-                        {
-                            id: "1",
-                            name: "Timetable",
-                        }
-                    ],
-                    venues: [
-                        {
-                            id: "1",
-                        }
-                    ],
-                };
-                return {
-                    activity,
-                    timetables,
-                };
-            });
+    async _timetables(opts) {
+        const json = await fetchS10Timetable(opts);
+        const timetable = TimetableParser.timetableFromJSON(json);
+        return [
+            {
+                name: "Regular",
+                timetable,
+            },
+        ];
     }
 
-    _stripAllButLaneSwimming(response) {
-        const timetables = response.timetables
-            .map(timetable => Timetable.filterByDescription(timetable, /Lane.*Swimming|Closed.*/));
-        return Object.assign({}, response, {
-            timetables,
-        });
+    _stripAllButLaneSwimming(timetables) {
+        return timetables.map(
+            (timetable) => ({
+                ...timetable,
+                timetable: Timetable.filterByDescription(timetable.timetable, /Lane.*Swimming|Closed.*/),
+            })
+        );
     }
 
-    timetables(opts) {
-        return this._timetables(opts)
-            .then(response => this._stripAllButLaneSwimming(response));
+    async timetables(opts) {
+        const timetables = await this._timetables(opts);
+        return this._stripAllButLaneSwimming(timetables);
     }
 }
 
