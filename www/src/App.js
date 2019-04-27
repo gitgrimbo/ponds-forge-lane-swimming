@@ -54,7 +54,7 @@ class App extends Component {
     );
   }
 
-  renderError(error, vendor, key) {
+  renderError(name, error, vendor, key) {
     const errorInfo = error.statusCode
       ? [
         error.statusCode,
@@ -66,8 +66,8 @@ class App extends Component {
 
     return (
       <div key={key}>
-        <h1>Error {vendor || "Unknown vendor"}</h1>
-        <div>{String(errorInfo)}</div>
+        <h1>{name} ({vendor || "Unknown vendor"})</h1>
+        <div>Error: {String(errorInfo)}</div>
       </div>
     );
   }
@@ -77,7 +77,7 @@ class App extends Component {
       timetables.forEach(({ name, timetable, error }) => {
         result.push(
           error
-            ? this.renderError(error, vendor, result.length)
+            ? this.renderError(name, error, vendor, result.length)
             : this.renderTimetable(name, timetable, vendor, result.length)
         );
       });
