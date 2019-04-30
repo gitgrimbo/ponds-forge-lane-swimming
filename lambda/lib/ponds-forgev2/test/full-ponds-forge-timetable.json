@@ -1,0 +1,274 @@
+[
+ {
+  "name": "Regular",
+  "timetable": [
+   {
+    "day": 1,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "(6th May: Lane swimming cancelled and 27th May: Session cancelled)"
+       }
+      ],
+      "startTime": "06:30",
+      "endTime": "08:00",
+      "description": "Lane (25m) Swimming",
+      "room": "Diving Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "(6th May: Lane swimming cancelled and 27th May: Session will take place 8:00am - 10:00pm in the 25 metre Leisure Pool)"
+       }
+      ],
+      "startTime": "08:00",
+      "endTime": "22:00",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "description": "Age UK (6th and 27th May: Age UK cancelled)",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "20:30",
+      "endTime": "21:30",
+      "description": "Swimfit (6th May and 27th May: Swimfit cancelled)",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 2,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "06:30",
+      "endTime": "15:15",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "06:45",
+      "endTime": "08:15",
+      "description": "Swimfit  (Diving Pit)",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "description": "Lane Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "16:00",
+      "endTime": "22:00",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 3,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "06:30",
+      "endTime": "15:15",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "description": "Lane Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "16:00",
+      "endTime": "22:00",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 4,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "06:30",
+      "endTime": "15:15",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "07:00",
+      "endTime": "08:00",
+      "description": "Swimfit",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "12:00",
+      "endTime": "13:30",
+      "description": "Swimfit",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "description": "Lane Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "(9th May: Lane swimming will be 25 metres)"
+       }
+      ],
+      "startTime": "16:00",
+      "endTime": "22:00",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 5,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "06:30",
+      "endTime": "15:15",
+      "description": "Lane (25m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "description": "Age UK",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "description": "Lane Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "(10th May: Lane swimming will be 25 metres between 4:00pm - 5:00pm and 50 metres between 6:30pm - 9:30pm)"
+       }
+      ],
+      "startTime": "16:00",
+      "endTime": "21:30",
+      "description": "Lane (50m) Swimming",
+      "room": "Competition Pool"
+     },
+     {
+      "venueId": "1",
+      "alterations": [],
+      "startTime": "19:30",
+      "endTime": "21:30",
+      "description": "Swimfit",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 6,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "27th April: Lane swimming cancelled"
+       },
+       {
+        "message": "4th May: Lane swimming available 6:30pm - 8:00pm in the 25 metre Diving Pit"
+       },
+       {
+        "message": "11th May: Lane swimming available 6:30pm - 8:00pm in the 25 metre Diving Pit"
+       },
+       {
+        "message": "18th May: Lane swimming cancelled"
+       },
+       {
+        "message": "25th May: Lane swimming available 5:30pm - 8:00pm in the 25 metre Diving Pit"
+       }
+      ],
+      "description": "Lane Swimming",
+      "startTime": "?",
+      "endTime": "?",
+      "room": "Competition Pool"
+     }
+    ]
+   },
+   {
+    "day": 0,
+    "items": [
+     {
+      "venueId": "1",
+      "alterations": [
+       {
+        "message": "28th April: Lane swimming available 8:00am - 8:00pm in the 50 metre Competition Pool"
+       },
+       {
+        "message": "5th May: Lane swimming cancelled"
+       },
+       {
+        "message": "12th May: Lane swimming available 7:00pm - 8:00pm in th 50 metre Competition Pool)"
+       },
+       {
+        "message": "19th May: Lane swimming cancelled"
+       },
+       {
+        "message": "26th May: Lane swimming cancelled"
+       }
+      ],
+      "description": "Lane Swimming",
+      "startTime": "?",
+      "endTime": "?",
+      "room": "Competition Pool"
+     }
+    ]
+   }
+  ]
+ }
+]

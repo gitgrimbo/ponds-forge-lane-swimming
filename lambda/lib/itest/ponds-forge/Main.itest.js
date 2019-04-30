@@ -12,8 +12,12 @@ describe("ponds-forge", () => {
     mkdirp.sync("temp");
 
     function expectTimetable(timetable, name) {
-        expect(timetable.name).to.equal(name);
-        expect(timetable.timetable).to.be.an("array");
+        if (timetable.error) {
+            console.error(timetable.error);
+        }
+        expect(timetable.error, "timetable.error").to.be.undefined;
+        expect(timetable.name, "timetable.name").to.equal(name);
+        expect(timetable.timetable, "timetable.timetable").to.be.an("array");
     }
 
     // Need to use full function, not lambda, for this.timeout()

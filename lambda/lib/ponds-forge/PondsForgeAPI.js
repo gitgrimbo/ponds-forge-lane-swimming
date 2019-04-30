@@ -5,7 +5,7 @@ const Timetable = require("../Timetable");
 const Trace = require("../Trace");
 const xhr = require("../xhr");
 
-function sivXHRRequest(uri, opts) {
+async function sivXHRRequest(uri, opts) {
     opts = Object.assign({}, opts, {
         uri,
         gzip: true,
@@ -15,8 +15,8 @@ function sivXHRRequest(uri, opts) {
         }
     });
 
-    return xhr(opts)
-        .then(response => JSON.parse(response));
+    const str = await xhr(opts);
+    return JSON.parse(str);
 }
 
 // https://siv.org.uk/contentable/content/activity/164
