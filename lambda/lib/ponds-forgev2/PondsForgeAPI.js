@@ -4,17 +4,18 @@ const TimetableParser = require("./TimetableParser");
 const Timetable = require("../Timetable");
 const xhr = require("../xhr");
 
-function sivXHRRequest(uri, opts) {
+async function sivXHRRequest(uri, opts) {
     opts = Object.assign({}, opts, {
         uri,
         gzip: true,
     });
 
-    return xhr(opts)
-        .catch((error) => {
-            error.uri = uri;
-            throw error;
-        });
+    try {
+        return await xhr(opts);
+    } catch (err) {
+        err.uri = uri;
+        throw err;
+    }
 }
 
 class PondsForgeAPI {
