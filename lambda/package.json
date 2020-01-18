@@ -14,11 +14,10 @@
     "test:unit:watch": "chokidar lib/**/*.js --ignore \"lib/itest\" --command \"npm run test:unit\"",
     "--test:integration": "to use grep run 'npm run test:integration -- --grep=somestring'",
     "test:integration": "mocha lib/itest/**/*.itest.js",
-    "build": "rimraf dist && mkdirp dist && browserify index.js --outfile dist/index.js --standalone index --node",
+    "build": "echo no build",
     "logs": "serverless logs -f laneSwimmingData"
   },
   "devDependencies": {
-    "browserify": "^16.5.0",
     "chai": "^4.2.0",
     "chokidar-cli": "^2.1.0",
     "load-json-file": "^6.2.0",
