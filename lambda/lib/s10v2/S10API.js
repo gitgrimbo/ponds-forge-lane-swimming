@@ -1,4 +1,4 @@
-const addDays = require("date-fns/add_days");
+const addDays = require("date-fns/addDays");
 
 const TimetableParser = require("./TimetableParser");
 
