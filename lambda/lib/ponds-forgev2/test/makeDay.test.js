@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 
 const { newTimetableItem, expectTimetableItem } = require("./utils");
-const { makeDay } = require("../makeDay");
+const makeDay = require("../makeDay");
 
 describe("ponds-forgev2/makeDay", () => {
     it("Item ending with spaces and full-stops shows no alterations", () => {
