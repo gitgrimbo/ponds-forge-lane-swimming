@@ -10,8 +10,7 @@
     "package": "serverless package",
     "deploy": "npm run build && serverless deploy",
     "test:unit": "mocha lib/**/test/*.test.js",
-    "--comment--test:unit:watch": "Use chokidar for file watching, as it allows exclusions (ignore) unlike mocha's file watching",
-    "test:unit:watch": "chokidar lib/**/*.js --ignore \"lib/itest\" --command \"npm run test:unit\"",
+    "test:unit:watch": "npm run test:unit -- --watch --watch-files lib",
     "--test:integration": "to use grep run 'npm run test:integration -- --grep=somestring'",
     "test:integration": "mocha lib/itest/**/*.itest.js",
     "build": "echo no build",
@@ -19,7 +18,6 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "chokidar-cli": "^2.1.0",
     "load-json-file": "^6.2.0",
     "mkdirp": "^0.5.1",
     "mocha": "^7.0.0",
