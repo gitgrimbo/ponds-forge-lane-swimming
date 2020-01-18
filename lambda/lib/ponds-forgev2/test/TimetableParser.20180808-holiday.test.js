@@ -45,7 +45,7 @@ describe("ponds-forgev2/TimetableParser/20180808-holiday", () => {
         expect(tt).to.be.an("object");
         expect(tt.day).to.equal(6);
         expect(tt.items).to.have.lengthOf(1);
-        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "Competition Pool", newAlterations([
+        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "", "", newAlterations([
             "August Availability",
             "11th August: Lane swimming available 8:00am - 8:00pm in the 50 metre competition pool",
             "18th August: Lane swimming available 8:00am - 8:00pm in the 50 metre competition pool",
@@ -58,7 +58,7 @@ describe("ponds-forgev2/TimetableParser/20180808-holiday", () => {
         expect(tt).to.be.an("object");
         expect(tt.day).to.equal(0);
         expect(tt.items).to.have.lengthOf(1);
-        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "Competition Pool", newAlterations([
+        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "", "", newAlterations([
             "August Availability",
             "12th August: Lane swimming available 8:00am - 8:00pm in the 50 metre competition pool",
             "19th August: Lane swimming available 8:00am - 8:00pm in the 50 metre competition pool",

@@ -9,6 +9,10 @@ function makeDay(dayIdx, lines) {
   function newItem() {
     return {
       venueId: "1",
+      startTime: "?",
+      endTime: "?",
+      room: "",
+      description: "",
       alterations: [],
     };
   }
@@ -127,7 +131,9 @@ function makeDay(dayIdx, lines) {
       return;
     }
 
-    if (line.match(/^\d/)) {
+    const lineStartsWithDigit = line.match(/^\d/);
+    if (lineStartsWithDigit) {
+      // assume the digit was part of the activity start time.
       expectingAlteration = false;
       item = newItem();
       items.push(item);
@@ -138,7 +144,22 @@ function makeDay(dayIdx, lines) {
       }
       return;
     }
+
+    // we weren't expecting an alteration, but we couldn't parse the line, so assume alteration
+    generalAlterations.push({
+      message: line,
+    });
+
+    // one last check if any part of the line might be related to Lane Swimming
+    const isLaneSwimmingRelated = Boolean(line.match(/Lane Swimming/));
+    if (isLaneSwimmingRelated) {
+      item.description = "Lane Swimming";
+      items.push(item);
+    }
   });
+
+  // remove empty messages
+  generalAlterations = generalAlterations.filter(({ message }) => !!message);
 
   if (items.length > 0) {
     // expected
@@ -150,10 +171,6 @@ function makeDay(dayIdx, lines) {
   } else {
     // Special case. What we should expect as item data is actually embedded in one big general alteration.
     const item = Object.assign(newItem(), {
-      description: "Lane Swimming",
-      startTime: "?",
-      endTime: "?",
-      room: "Competition Pool",
       alterations: generalAlterations.slice(),
     });
     items.push(item);

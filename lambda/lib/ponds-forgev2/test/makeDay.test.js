@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const { newTimetableItem, expectTimetableItem } = require("./utils");
+const { newTimetableItem, expectTimetableItem, newAlterations } = require("./utils");
 const makeDay = require("../makeDay");
 
 describe("ponds-forgev2/makeDay", () => {
@@ -11,5 +11,16 @@ describe("ponds-forgev2/makeDay", () => {
         expect(day.day).to.equal(0);
         expect(day.items).to.have.lengthOf(1);
         expectTimetableItem(day.items[0], newTimetableItem("1", "06:30", "15:15", "Lane (25m) Swimming", "Competition Pool", []));
+    });
+
+    it("Item with no time is only alteration(s)", () => {
+        const input = "Lane Swimming unavailable throughout January";
+        const day = makeDay(0, [input]);
+        expect(day).to.be.an("object");
+        expect(day.day).to.equal(0);
+        expect(day.items).to.have.lengthOf(1);
+        expectTimetableItem(day.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "", newAlterations([
+            input,
+        ])));
     });
 });

@@ -9,11 +9,7 @@ function expectTimetableItem(item, expected) {
     equals(expected.description, item.description);
     equals(expected.room, item.room);
     if (expected.alterations) {
-        expect(item.alterations, "alterations[]").to.have.lengthOf(expected.alterations.length);
-        item.alterations.forEach((alteration, i) => {
-            expect(alteration, "alteration").to.be.an("object");
-            expect(alteration.message, "alteration.message").to.equal(expected.alterations[i].message);
-        });
+        expect(item.alterations).to.deep.equal(expected.alterations);
     }
 }
 

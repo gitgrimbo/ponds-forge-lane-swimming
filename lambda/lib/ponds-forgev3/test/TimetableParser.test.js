@@ -2,7 +2,7 @@ const { expect } = require("chai");
 const fs = require("fs");
 const path = require("path");
 
-const { newTimetableItem, expectTimetableItem } = require("./utils");
+const { newTimetableItem, expectTimetableItem, newAlterations } = require("./utils");
 const TimetableParser = require("../TimetableParser");
 
 describe("ponds-forgev3/TimetableParser", () => {
@@ -49,8 +49,9 @@ describe("ponds-forgev3/TimetableParser", () => {
         expect(tt).to.be.an("object");
         expect(tt.day).to.equal(6);
         expect(tt.items).to.have.lengthOf(1);
-        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "Competition Pool"));
-        // TODO - this day should be a single alteration
+        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "", newAlterations([
+            "Lane Swimming unavailable throughout January"
+        ])));
     });
 
     it("sunday", () => {
@@ -58,7 +59,8 @@ describe("ponds-forgev3/TimetableParser", () => {
         expect(tt).to.be.an("object");
         expect(tt.day).to.equal(0);
         expect(tt.items).to.have.lengthOf(1);
-        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "Competition Pool"));
-        // TODO - this day should be a single alteration
+        expectTimetableItem(tt.items[0], newTimetableItem("1", "?", "?", "Lane Swimming", "", newAlterations([
+            "Lane Swimming unavailable throughout January"
+        ])));
     });
 });
