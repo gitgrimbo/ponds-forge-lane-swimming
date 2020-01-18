@@ -2,7 +2,7 @@ const chai = require("chai");
 const mkdirp = require("mkdirp");
 
 const { saveFile } = require("../utils");
-const PondsForgeAPI = require("../../ponds-forgev2/PondsForgeAPI");
+const PondsForgeAPI = require("../../ponds-forgev3/PondsForgeAPI");
 
 const expect = chai.expect;
 
@@ -29,7 +29,7 @@ describe("ponds-forge", () => {
             saveResources: true,
         };
 
-        const logResponse = false;
+        const logResponse = true;
 
         const response = await pondsForgeAPI.timetables(opts);
         const responseStr = JSON.stringify(response, null, 1);
@@ -46,5 +46,9 @@ describe("ponds-forge", () => {
         expect(response).to.have.lengthOf(1);
 
         expectTimetable(response[0], "Regular");
+
+        const numTimetables = response.reduce((num, { timetable }) => num + timetable.length, 0);
+        // Should be at least 1 timetable
+        expect(numTimetables).to.be.greaterThan(0);
     });
 });

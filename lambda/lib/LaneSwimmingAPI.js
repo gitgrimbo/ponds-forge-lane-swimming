@@ -1,12 +1,12 @@
 const zip = require("lodash.zip");
 
 const Trace = require("./Trace");
-const PondsForgeAPI = require("./ponds-forgev2/PondsForgeAPI");
+const PondsForgeAPI = require("./ponds-forgev3/PondsForgeAPI");
 const S10API = require("./s10v2/S10API");
 
 class LaneSwimmingAPI {
     constructor() {
-        this.pondsForgeAPI = PondsForgeAPI.withHolidayTimetable();
+        this.pondsForgeAPI = new PondsForgeAPI();
         this.s10API = new S10API();
     }
 
