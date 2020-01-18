@@ -6,9 +6,13 @@ const { newTimetableItem, expectTimetableItem } = require("./utils");
 const TimetableParser = require("../TimetableParser");
 
 describe("ponds-forgev2/TimetableParser", () => {
-    const html = fs.readFileSync(path.join(__dirname, "./swimming-ponds-forge.html"));
+    let html;
+    let timetable;
 
-    const timetable = TimetableParser.timetableFromHTML(html, { trace: true });
+    before(() => {
+        html = fs.readFileSync(path.join(__dirname, "./swimming-ponds-forge.html"));
+        timetable = TimetableParser.timetableFromHTML(html, { trace: true });
+    });
 
     it("expect 7 days", () => {
         expect(timetable).to.have.lengthOf(7);
