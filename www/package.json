@@ -20,7 +20,7 @@
     "git-rev-sync": "^2.0.0",
     "mkdirp": "^0.5.1",
     "react-scripts": "3.3.0",
-    "terser": "4.6.3"
+    "terser": "4.8.1"
   },
   "scripts": {
     "start": "npm run git-info && cross-env BROWSER=none react-scripts start",
